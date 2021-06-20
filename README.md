@@ -312,7 +312,95 @@
           + [Lernziele](#lernziele-4)
   * [Vorbereitung](#vorbereitung-5)
   * [Präsenz](#pr-senz-4)
+    + [Agenda](#agenda-3)
+    + [Diskussion der Fallstudie 'Audit Planung'](#diskussion-der-fallstudie--audit-planung-)
+      - [Fallstudie: Plattform Beurteilung](#fallstudie--plattform-beurteilung)
+      - [Fallstudie: Prozessbeurteilung](#fallstudie--prozessbeurteilung)
+      - [Fallstudie: Prüfprogramm](#fallstudie--pr-fprogramm)
+      - [Fallstudie: Zeitplan](#fallstudie--zeitplan)
+    + [Revision (Audit)](#revision--audit-)
+      - [Übersicht](#-bersicht-2)
+      - [Audit und Projektarbeit](#audit-und-projektarbeit)
+      - [Phasen eines Audits](#phasen-eines-audits)
+        * [Planung](#planung)
+        * [Fieldwork](#fieldwork)
+        * [Rapportieren](#rapportieren)
+          + [Rapportieren: Rating](#rapportieren--rating)
+        * [Kontrolle](#kontrolle)
+    + [Fehler-Usachen-Analyse oder Root cause analysis](#fehler-usachen-analyse-oder-root-cause-analysis)
+      - [Definitionen](#definitionen)
+      - [Wichtige Grundsätze](#wichtige-grunds-tze)
+      - [Root Cause Übung 1](#root-cause--bung-1)
+        * [Was ist das Problem?](#was-ist-das-problem-)
+        * [Was ist der nächste Schritt?](#was-ist-der-n-chste-schritt-)
+        * [Was nun?](#was-nun-)
+        * [Was schliessen wir daraus? Haben wir ein Problem identifiziert?](#was-schliessen-wir-daraus--haben-wir-ein-problem-identifiziert-)
+        * [Unser nächster Schritt?](#unser-n-chster-schritt-)
+        * [Wie kommt es, dass das Managementsystem keine zweite Bestätigung vom Dateneigentümer einfordert, obwohl das nach unserer Security Policy beim Zugriff auf sensitive Daten nötig ist?](#wie-kommt-es--dass-das-managementsystem-keine-zweite-best-tigung-vom-dateneigent-mer-einfordert--obwohl-das-nach-unserer-security-policy-beim-zugriff-auf-sensitive-daten-n-tig-ist-)
+        * [Was ist das Problem?](#was-ist-das-problem--1)
+        * [Was nun?](#was-nun--1)
+        * [Wieso war das Inventar nicht korrekt?](#wieso-war-das-inventar-nicht-korrekt-)
+        * [Was ist schief gelaufen?](#was-ist-schief-gelaufen-)
+        * [Unser nächster Schritt?](#unser-n-chster-schritt--1)
+        * [Haben wir das Problem abschliessend und nachhaltig gelöst?](#haben-wir-das-problem-abschliessend-und-nachhaltig-gel-st-)
+      - [Root Cause Übung 2](#root-cause--bung-2)
+        * [Ausgangslage](#ausgangslage)
+        * [Aufgabe:](#aufgabe-)
+      - [Root Cause Übung 2: SOC](#root-cause--bung-2--soc)
+      - [Root Cause Übung 2: PC Support](#root-cause--bung-2--pc-support)
+      - [Root Cause Übung 2: CEO](#root-cause--bung-2--ceo)
+      - [Root Cause Übung 2:](#root-cause--bung-2-)
+    + [Schweizerische Gesetzesnormen mit Einfluss auf IT Sicherheit](#schweizerische-gesetzesnormen-mit-einfluss-auf-it-sicherheit)
+      - [Recht und IT](#recht-und-it)
+      - [Übersicht wichtigerer Gesetze](#-bersicht-wichtigerer-gesetze)
+        * [OR](#or)
+        * [DSG (neu auch: GDPR)](#dsg--neu-auch--gdpr-)
+        * [StGB](#stgb)
+      - [Schlussbemerkungen](#schlussbemerkungen)
+    + [IT Forensik](#it-forensik)
+      - [Definition](#definition-4)
+      - [Die '6 W'](#die--6-w-)
+        * [Wer:](#wer-)
+        * [Was:](#was-)
+        * [Wann:](#wann-)
+        * [Wo:](#wo-)
+        * [Wie:](#wie-)
+        * [Warum:](#warum-)
+      - [Anforderungen an die Vorgangsweise](#anforderungen-an-die-vorgangsweise)
+      - [Zu sichernde Daten](#zu-sichernde-daten)
+        * [Persistente Daten](#persistente-daten)
+        * [Halb persistente Daten](#halb-persistente-daten)
+        * [Flüchtige Daten](#fl-chtige-daten)
+        * [Echtzeit Daten](#echtzeit-daten)
+      - ['Pull the plug'?](#-pull-the-plug--)
+      - [Schlussbemerkungen](#schlussbemerkungen-1)
+    + [Business Continuity Management (BCM) Disaster Recovery Planning (DRP)](#business-continuity-management--bcm--disaster-recovery-planning--drp-)
+      - [Definition](#definition-5)
+      - [BCM & DRP](#bcm---drp)
+      - [Begriffe](#begriffe-1)
+        * [Recovery Time Objective (RTO)](#recovery-time-objective--rto-)
+        * [Recovery Point Objective (RPO)](#recovery-point-objective--rpo-)
+      - [Analyse](#analyse)
+      - [Planung](#planung-1)
+      - [Umsetzung](#umsetzung-1)
+      - [Test](#test)
   * [Nachbearbeitung](#nachbearbeitung-4)
+  * [Prüfungsvorbereitung](#pr-fungsvorbereitung)
+    + [Aufgabe 1](#aufgabe-1)
+    + [Aufgabe 2](#aufgabe-2)
+    + [Aufgabe 3](#aufgabe-3)
+    + [Aufgabe 4](#aufgabe-4)
+    + [Aufgabe 5](#aufgabe-5)
+    + [Aufgabe 6](#aufgabe-6)
+    + [Aufgabe 7](#aufgabe-7)
+    + [Aufgabe 8](#aufgabe-8)
+    + [Aufgabe 9](#aufgabe-9)
+    + [Aufgabe 10](#aufgabe-10)
+    + [Aufgabe 11](#aufgabe-11)
+    + [Aufgabe 12](#aufgabe-12)
+    + [Lernziele](#lernziele-5)
+      - [Aufgaben](#aufgaben)
+      - [Lösungen](#l-sungen)
 - [Zusammenfassugen - IT Security Management](#zusammenfassugen---it-security-management)
   * [Kapitel 1 - Schutzziele und Schutzbedarf](#kapitel-1---schutzziele-und-schutzbedarf)
     + [Management-Tipps](#management-tipps-1)
@@ -357,7 +445,7 @@
   * [Kapitel 21 - Kontinuierliche Qualitätsverbesserung](#kapitel-21---kontinuierliche-qualit-tsverbesserung)
     + [Management-Tipps](#management-tipps-21)
 - [Fragen](#fragen)
-
+- [Prüfungsvorbereitung](#pr-fungsvorbereitung-1)
 
 
 Die Studierenden erhalten einen vertieften Einblick in das Manage- ment von Informationssicherheit und lernen die grundlegenden Konzepte und Prozesse, um in einer Firma die Informationssicher- heit aufzubauen, zu überwachen, zu prüfen und laufend zu verbes- sern.
@@ -2785,9 +2873,666 @@ Dauer	Thema
 30'	Security Incident Response
 15'	Didaktischer Puffer
 
+
+### Agenda
+
+- Diskussion der Fallstudie 'Audit Planung'
+- Revision (Audit)
+- Fehler-Usachen-Analyse oder Root cause analysis
+- Schweizerische Gesetzesnormen mit Einfluss auf IT Sicherheit
+- IT Forensik
+- Business Continuity Management (BCM) & Disaster Recovery Planning
+- Prüfungsvorbereitung
+
+![2021-06-05_10-07-41](img/2021-06-05_10-07-41.png)
+
+### Diskussion der Fallstudie 'Audit Planung'
+
+#### Fallstudie: Plattform Beurteilung
+
+| Plattform | Bewertung (Kommentar, Risiko, Gewichtung, in scope/out of scope)                                                                                                                         | scope                                                                                                                                     |
+|:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
+| Unix      | Wichtigste Plattform, da bei den grossen Kunden vertreten                                                                                                                                | In scope                                                                                                                                  |
+| Windows   | Grösste Durchdringung, aber eher bei kleinen Kunden vertreten.                                                                                                                           | Zweitwichtigste Plattform, in scope                                                                                                       |
+| AS400     | Nur bei einem Kunden mittlerer Grösse verwendet. • Kein Know-how dieser Plattform im Team • Ist eine Grossrechner-nahe Plattform und daher tendenziell sicher und gewissenhaft betrieben | In diesem Audit nicht berücksichtigt Vormerken, dass wir AS400 entweder im nächsten Audit oder einem spezifischen AS400 Audit untersuchen |
+
+#### Fallstudie: Prozessbeurteilung
+
+| Prozesse           | Bewertung (Kommentar, Risiko, Gewichtung, scope)                                                  | scope                                   | Kommentar                                                |
+|:-------------------|:--------------------------------------------------------------------------------------------------|:----------------------------------------|:---------------------------------------------------------|
+| OS Setup & Betrieb | Unser Kerngeschäft.                                                                               | In scope                                | Frage: was wollen wir hier wie testen?                   |
+| Change Management  | Wichtiger Bereich.                                                                                | Sollte in scope sein.                   | Entscheid später: falls Zeit dazu verfügbar, dann ja     |
+| Patch Management   | Sehr sicherheitsrelevant, gut messbar, definierte SLA mit dem Kunden.                             | Muss Teil unseres Audits sein: in scope |                                                          |
+| IDS Betrieb        | Ebenfalls wichtig, doch wir haben kein Know-how und können daher IDS nicht angemessen untersuchen | Out of scope                            | Analog zu AS400: nächstes Mal oder gesondert untersuchen |
+| SOC                | Sehr sicherheitsrelevant, definierte SLA mit den Kunden                                           | Muss Teil unseres Audits sein: in scope |                                                          |
+| Consulting         | Nicht relevant für unser Audit. Consulting beinhaltet keine messbare Leistungserbringung.         | Out of scope                            |                                                          |
+
+#### Fallstudie: Prüfprogramm
+
+- Wir konzentrieren uns auf die Plattformen Unix und Windows, sowie die Prozesse OS Setup & Betrieb, Patch Management, SOC und evtl. Change Management.
+
+Das bedeutet, dass wir die folgenden Prüfgebiete definiert haben:
+- OS Setup & Betrieb Unix
+- OS Setup & Betrieb Windows
+- Patch Management (zentral)
+- SOC (zentral)
+- Change Management Unix
+- Change Management Windows
+
+#### Fallstudie: Zeitplan
+
+Nach Aufstellung des Zeitplans ist klar, dass wir einen Slot mehr benötigen würden, um jedes Prüfgebiet mit 2 Interviews und einem Analyse-Block zu behandeln. Wir planen also, die beiden Change Management Interviews in einem Analyse-Block zu bearbeiten (da dies das Gebiet mit geringstem Risiko ist). Falls wir irgendwo effizienter als erwartet sein sollten, können wir die so verfügbar gewordene Zeit für Change Management einsetzen.
+
+|               | Montag          | Dienstag            | Mittwoch            | Donnerstag              | Freitag      |
+|:--------------|:----------------|:--------------------|:--------------------|:------------------------|:-------------|
+| 08:00 – 10:00 | OS Unix         | SOC                 | OS Unix (2)         | Patch Mgmt (2)          | SOC (2)      |
+| 10:00 – 12:00 | OS Windows      | Change Mgmt Unix    | OS Windows (2)      | Change Mgmt Unix (2)    | Vorbereitung |
+| 13:00 – 15:00 | Patch Mgmt      | Change Mgmt Windows | Analyse Change Mgmt | Change Mgmt Windows (2) | Vorbereitung |
+| 15:00 – 17:00 | Analyse OS Unix | Analyse OS Windows  | Analyse Patch Mgmt  | Analyse SOC             | Präsentation |
+
+### Revision (Audit)
+
+#### Übersicht
+
+- Eine Audit Organisation soll unabhängig und nicht im Tagesgeschäft eingebunden sein: interne Audit Abteilungen sind daher meist direkt der Geschäftsleitung unterstellt.
+- Audit hat Zugriff auf alle benötigten Dokumente und Ressourcen.
+- Verantwortlichkeiten, Aufgaben und Kompetenzen sind üblicherweise in einem Audit Charter ('Revisionsstatut') geregelt.
+- In IT Security treffen wir hauptsächlich auf
+    - Compliance Audit: Werden interne Prozesse eingehalten
+    - Risk-based Audit: bewegt sich die untersuchte Einheit im Rahmen des Risk Appetite der Unternehmung
+
+#### Audit und Projektarbeit
+
+- Ein Audit hat Gemeinsamkeiten mit einem Projekt:
+- Es ist ein zielgerichtetes, einmaliges Vorhaben, das aus einem Satz von abgestimmten, gelenkten Tätigkeiten mit Anfangs- und Endtermin besteht und durchgeführt wird, um unter Berücksichtigung von Zwängen bezüglich Zeit, Ressourcen und Qualität ein Ziel zu erreichen (Wikipedia Definition)
+- Das Team wird aus qualifizierten und verfügbaren Spezialisten zusammengestellt
+- Folgerichtig besteht ein Audit Team üblicherweise aus einem Leiter ('Lead Auditor') und mehreren Auditoren.
+- Audit teilt die Unternehmung oft in Verantwortungsgebiete ein (z.B. Geschäftsbereiche, Technologien, evtl. sogar Prozesse); Lead Auditors rapportieren an den jeweiligen Verantwortlichen.
+
+#### Phasen eines Audits
+
+| Planung                     | -> | Fieldwork (Durchführung)            | -> | Rapportieren                                    | -> | Kontrolle                                                         | -> |
+|:----------------------------|:---|:------------------------------------|:---|:------------------------------------------------|:---|:------------------------------------------------------------------|:---|
+| Prüfgebiet                  |    | Prozesse dokumentieren              |    | Sachliche Richtigkeit der Findings verifizieren |    | Zeitgerechte und nachhaltige Umsetzung der Aktionen kontrollieren |    |
+| Anforderungen               |    | Kontrollen identifizieren           |    | Audit Report schreiben und vernehmlassen        |    |                                                                   |    |
+| Grobanalyse                 |    | Prüfungen bestimmen und durchführen |    | Empfehlungen abgeben                            |    |                                                                   |    |
+| Grober Prüfplan             |    | Ergebnisse dokumentieren            |    | Geplante Aktionen des Managements dokumentieren |    |                                                                   |    |
+| Zeit- und Ressourcenplanung |    | Findings festhalten                 |    |                                                 |    |                                                                   |    |
+
+![2021-06-05_12-51-14](img/2021-06-05_12-51-14.png)
+
+##### Planung
+
+- Prüfgebiet definieren
+- Anforderungen bestimmen
+  - Welche Policies und Geschäftsanforderungen betreffen das Prüfgebiet?
+- Grobanalyse
+    - Ohne oder mit minimalem Miteinbezug der Auditees
+    - Organisation
+    - Verfügbare und bereits bekannte Fakten (z.B. frühere Audits) sichten
+- Grober Prüfplan
+    - Bestimmen der grössten Risiken
+    - Daraus ergibt sich der Fokus des Audits
+- Zeit- und Ressourcenplanung
+    - Welche Spezialisten werden benötigt
+    - Wann kann/soll der Audit durchgeführt werden
+
+##### Fieldwork
+
+Wird oft in 2 Phasen aufgeteilt:
+- Prozessverständnis (Interviews, Dokumente, Evidenzen)
+    - Prozesse dokumentieren
+    - Vorhandene und fehlende Kontrollen identifizieren
+    - Aufgrund von identifizierten Risiken den Fokus für die detaillierte Prüfung festlegen
+- Detaillierte Prüfung (Evidenzen, Rohdaten)
+    - Für vorhandene und voraussichtlich funktionierende Kontrollen wird eine Einhalteprüfung (Compliance testing) durchgeführt
+    - Für nicht vorhandene Kontrollen wird eine Ergebnisprüfung (Substantive testing) durchgeführt
+- Alle Ergebnisse werden dokumentiert.
+- Identifizierte Schwachstellen werden in Findings dokumentiert und so gut als möglich mit Beweisen substantiviert; Root cause wird bestimmt.
+
+##### Rapportieren
+
+- Sachliche Richtigkeit der Findings mit den Auditees verifizieren.
+- Root cause verifizieren, gegebenenfalls identifizieren.
+- Empfehlungen formulieren, welche das zugrundeliegende Problem und die Risiken nachhaltig adressieren.
+- Mit dem betroffenen Management bestimmen, welche Massnahmen sie auf Basis des Findings und der Empfehlung(en) bis wann umsetzen wollen. n Rating der Findings bestimmen.
+- Audit Report schreiben:
+    - Verständlich: Empfängergerecht, Management Summary
+    - Komplett: alle relevanten Findings, selbst wenn sie während des Audits behoben wurden
+    - Korrekt: gegebenenfalls den Report von Auditees bestätigen lassen
+- Audit Report versenden:
+  - Geschäftsleitung, Auditees, weitere interne und/oder externe Stakeholder
+
+###### Rapportieren: Rating
+
+- Alle Findings und auch der Audit Report als Ganzes werden mit einer Bewertung versehen.
+- Report Rating
+- Gebräuchlich sind Bewertungen von 'Erfüllt' über 'Mit Einschränkungen' zu 'Nicht erfüllt' (Englisch: Satisfactory, Qualified, Unsatisfactory).
+- Wiederholtes nicht-Bestehen von Audits führt üblicherweise zu personellen Konsequenzen für das verantwortliche Management.
+- Rating von Findings
+- Üblicherweise nach Risiko; Werte richten sich sinnvollerweise nach dem gebräuchlichen Risikomanagement der Unternehmung (z.B. gering, mittel, hoch oder 3, 2, 1).
+- Je nach Schwere des Findings bestimmt sich die Zeit bis zur Behebung des Misstands und welche Hierarchiestufe für die Behebung verantwortlich ist.
+
+##### Kontrolle
+
+- Der zuständige Auditor oder die Audit Organisation verifiziert, dass die vereinbarten Aktionen termingerecht durchgeführt werden.
+- Das Schliessen von Aktionen, bzw. der Findings bedingt die Zustimmung des Auditors.
+- Audit verifiziert vor der Schliessung, dass die Aktion nicht nur termingerecht, sondern auch vollständig und in ausreichender Qualität umgesetzt wurde und dass das im Finding identifizierte Risiko nachhaltig adressiert wurde.
+
+### Fehler-Usachen-Analyse oder Root cause analysis
+
+#### Definitionen
+
+'Die Fehler-Ursachen-Analyse beinhaltet die Erfassung von Fehlern, ihrer Ursachen und die statistische Auswertung dieser Daten, an die sich eine Bewertung und abgeleitete Massnahmen zur Fehler(kosten)reduzierung anschliessen.
+
+Durch die Zuordnung von Fehlern zu bestimmten Fehlerursachen und die Gruppierung der Fehlerursachen lassen sich Massnahmen zur Verringerung der Fehleranzahl und damit der Fehlerkosten ableiten.'
+
+**Wikipedia**
+
+'How was this allowed to happen?'
+
+**Auditor**
+
+#### Wichtige Grundsätze
+
+- Alle Beteiligten miteinbeziehen:
+- Oft wird das Gesamtbild benötigt, um das zugrundeliegende Problem zu erkennen n Akzeptanz ist höher, wenn alle Stakeholder beteiligt waren
+- Nicht den Schuldigen, sondern das Problem identifizieren:
+- Der letzte Fehler in der Kette wird üblicherweise von einem Menschen begangen: es ist sinnvoll, diesen zu finden aber danach muss bestimmt werden, was zum Fehler geführt hat.
+- Je nach Experte liegt das Verhältnis von Prozess- zu menschlichen Fehlern zwischen 85:15 (Juran) und 94:6 (Deming).
+
+#### Root Cause Übung 1
+
+- Bei einer Revalidierung der autorisierten Benutzer des Mailservers wurde festgestellt, dass mehrere Mitarbeiter in verschiedenen Abteilungen Zugriff mit Administratorberechtigung haben, obwohl sie diese Rechte für ihre Arbeit nicht benötigen.
+
+##### Was ist das Problem?
+- Die Mitarbeiter haben Zugriff auf alle Mails (Confidentiality), können Mails manipulieren (Integrity), Mails im Namen anderer Mitarbeiter versenden (Accountability) oder den Mailservice beeinträchtigen (Availability).
+
+##### Was ist der nächste Schritt?
+- Wir prüfen, ob die Berechtigungen missbräuchlich angelegt wurden:
+  - Die vergebenen Berechtigungen stimmen mit den im Managementsystem dokumentierten Berechtigungen überein und wurden automatisiert erstellt.
+
+##### Was nun?
+
+- Wir verifizieren, ob die Berechtigungen im Managementsystem ordnungsgemäss bewilligt wurden und stellen fest, dass alle Berechtigungen vom Vorgesetzten der Mitarbeiter bewilligt wurden.
+
+##### Was schliessen wir daraus? Haben wir ein Problem identifiziert?
+- Offenbar verlangt das Managementsystem keine Zustimmung des Dateneigentümers oder Service Managers.
+- Verschiedene Vorgesetzte bestätigen Berechtigungsanträge ohne sie ausreichend zu prüfen (unsere Abklärungen haben ergeben, dass eine Anzahl von Vorgesetzten identische Anträge ihrer Mitarbeiter abgelehnt haben).
+
+##### Unser nächster Schritt?
+
+##### Wie kommt es, dass das Managementsystem keine zweite Bestätigung vom Dateneigentümer einfordert, obwohl das nach unserer Security Policy beim Zugriff auf sensitive Daten nötig ist?
+- Der Eigentümer des Mailsystems hat bei der Definition der Berechtigungen für sein System vergessen, sich als Bestätiger einzutragen.
+- Das Managementsystem erzwingt eine zweite Bestätigung für sensitive Systeme, aber das Mailsystem ist im Inventar inkorrekt klassifiziert.
+
+##### Was ist das Problem?
+- Die präventive Kontrolle konnte aufgrund der falschen Definition im Inventar nicht greifen (den menschlichen Fehler zu kritisieren ist nicht angemessen).
+- Weitere auf dieser Klassifizierung basierende Prozesse (z.B. Backup, Patching, Netzwerkzonierung) könnten falsche Ergebnisse liefern.
+
+##### Was nun?
+
+##### Wieso war das Inventar nicht korrekt?
+- Das Inventar wird vom Eigentümer der Applikationen gepflegt. Die Klassifizierung des Mailsystems wurde vor mehreren Jahren durch den ursprünglichen Eigentümer des Systems vorgenommen. Er hat inzwischen die Firma verlassen.
+- Eine Stichprobe bei anderen sensitiven Applikationen zeigt, dass auch das HR System und die FiBu falsch klassifiziert sind.
+
+##### Was ist schief gelaufen?
+- Die Klassifizierung wird weder hinterfragt noch regelmässig überprüft.
+
+##### Unser nächster Schritt?
+
+Wir haben 2 Problemfelder identifiziert:
+- Mangelnde Sorgfalt gewisser Vorgesetzter bei der Berechtigungsvergabe und –revalidierung n Kein Hinterfragen und Revalidieren von Inventardefinitionen welche sicherheitsrelevante Prozesse steuern Welche Massnahmen könnten wir ergreifen/vorschlagen?
+- Schulung / Sensibilisierung von Vorgesetzten.
+- Einführen eines 4-Augen-Prinzips bei Änderungen im Inventar; evtl. beschränkt auf bestimmte Felder, Bestätigung könnte z.B. durch höheres Management oder IT Security erfolgen.
+- Jährliche Revalidierung der Inventardaten durch Eigentümer.
+
+##### Haben wir das Problem abschliessend und nachhaltig gelöst?
+
+#### Root Cause Übung 2
+
+##### Ausgangslage
+- Der PC des Geschäftsinhabers wurde von einer Ransomware infiziert. Die Malware hat wichtige Dokumente verschlüsselt.
+- Da der CEO letzte Woche im Ausland war, wurden die Daten noch nicht auf den Firmenservern gesichert und sind daher nicht mehr verfügbar.
+- Der CEO hat die Leiter des SOC und des PC Support zu sich gebeten um zu ermitteln, was falsch gelaufen ist und wie Wiederholungen solcher Vorfälle zu vermeiden sind.
+
+Gruppenarbeit: 20 Minuten
+- Teilen Sie sich in Gruppen von drei Personen und übernehmen Sie je eine Rolle: SOC, PC Support oder CEO.
+- Lesen Sie die Slide, welche 'Ihre' Rolle beschreibt.
+
+##### Aufgabe:
+- Verstehen Sie zusammen anhand ‘Ihrer’ Beschreibung und des Prozessdiagrammes, wie der Prozess zur Malware Remediation abläuft.
+- Welcher Fehler im Prozess hat zum aktuellen Problem geführt?
+- Überlegen Sie Ansätze, wie das Problem gelöst oder vermieden werden könnte (ohne den Prozess substantiell zu ändern – die Unternehmung hat Gründe für den verhältnismässig komplizierten Prozess).
+- Präsentieren Sie Ihre Ergebnisse im Plenum.
+
+![2021-06-05_10-31-40](img/2021-06-05_10-31-40.png)
+
+#### Root Cause Übung 2: SOC
+
+- Wenn der Virenschutz auf den PCs/Laptops der Benutzer einen Virus erkennt, ihn aber nicht automatisiert entfernen kann, löst das Programm einen Alarm für das SOC aus.
+- SOC verifiziert, dass es sich um ein True Positive handelt und falls ja, ob die Malware mit vernünftigem Aufwand eliminierbar ist.
+- Mit einer nicht eliminierbaren Malware infizierte Maschinen werden an den PC Support gemeldet und müssen so rasch als möglich neu aufgesetzt werden.
+- Die SOC Analysten haben ermittelt, dass die Ransomware von einem Trojaner geladen und installiert wurde, den das SOC bereits vor 3 Wochen entdeckt hatte.
+- Ein Auftrag zum neu aufsetzen des Laptops des CEO wurde vor 3 Wochen an PC Support gegeben.
+
+#### Root Cause Übung 2: PC Support
+
+- Wenn PC Support einen Auftrag zum neu aufsetzen eines PC oder Laptops erhält kontaktiert der Sachbearbeiter den Benutzer um einen Termin für den Restage zu vereinbaren.
+- Sofern zum vorgeschlagenen Termin ein PC Supporter frei ist, wird die Maschine vor Ort neu aufgesetzt und der Prozess ist beendet.
+- Falls kein PC Supporter am vom Benutzer vorgeschlagenen Termin verfügbar ist, wird der Benutzer um einen neuen Termin gefragt.
+- Die Unterlagen im PC Support zeigen, dass der CEO vor 3 Wochen um einen Termin angefragt wurde.
+- Nach einer Woche hat er vorgeschlagen, seinen Laptop am folgenden Samstag neu aufzusetzen, aber PC Support arbeitet nur an Wochentagen.
+- Auf die Frage nach einem anderen möglichen Termin hat der CEO noch nicht geantwortet.
+
+#### Root Cause Übung 2: CEO
+
+- Wenn auf dem PC oder Laptop eines Benutzers eine nicht zu entfernende Malware gefunden wird, nimmt der PC Support mit dem Benutzer Kontakt auf, um einen Termin für das neu aufsetzen der Maschine zu vereinbaren.
+- Sobald man sich auf einen Termin geeinigt hat, wird der Restage wie geplant durchgeführt.
+- Vor 3 Wochen wurde der CEO vom PC Support kontaktiert und um einen Termin für den Restage seines Laptops angefragt.
+- Aufgrund der Arbeitsbelastung war die beste Option für den CEO, dies an einem Samstag durchzuführen.
+- Das wurde vom PC Support abgelehnt, das die Supporter nicht am Wochenende arbeiten.
+- Der CEO hat danach keinen neuen Terminvorschlag gemacht und den Vorfall vergessen.
+
+#### Root Cause Übung 2:
+
+- Probleme:
+    - Die Vereinbarung eines geeigneten Termins kann lange dauern (potentieller Loop)
+    - Keine Kontrolle, um Langläufer zu identifizieren
+- Lösungsansätze:
+    - Messung (SLA) der Durchlaufzeit, Eskalation von Langläufern
+    - Eskalation von Benutzern, welche keine Antwort geben
+    - Statt um Termine anzufragen könnte der PC Support mögliche Termine vorschlagen und den Benutzer auffordern, einen der Termine zu wählen
+    - Wenn eine Maschine nicht in z.B. 48h neu aufgesetzt werden kann wird sie daran gehindert, sich am LAN anzumelden oder das Internet zu verwenden
+
+### Schweizerische Gesetzesnormen mit Einfluss auf IT Sicherheit
+
+#### Recht und IT
+
+- Alle Gesetzestexte der Schweiz sind online verfügbar: [http://www.admin.ch/ch/d/sr/index.html](http://www.admin.ch/ch/d/sr/index.html)
+- Recht ist für alle Unternehmungen und alle Aspekte des Lebens verbindlich:
+    - in IT ist es nicht ungewöhnlich, dass sich die Technologie schneller als der Gesetzgeber bewegt
+    - In Übergangsphasen interpretieren Gerichte bestehende Gesetzestexte für neue Technologien
+    - Gesetze werden neu erlassen (z.B. DSG, ZertES) oder erweitert 'Hackingparagraph' im StGB
+- Je nach Geschäftsfeld und Grösse der Firma sind unter Umständen andere Gesetze anwendbar.
+- Bei internationalen Firmen ist auch ausländisches Recht gültig.
+
+#### Übersicht wichtigerer Gesetze
+
+##### OR
+- Risikobeurteilung & IKS
+- Revision
+- Unübertragbare, unentziehbare Aufgaben des Verwaltungsrats (bei AG)
+- Archivierungspflicht
+##### DSG (neu auch: GDPR)
+- Besonders schützenswerte Personendaten
+- Bearbeitungsprinzipien
+##### StGB
+- Computerkriminalität
+- Hacking
+
+#### Schlussbemerkungen
+
+- Rechtsfragen immer von einem erfahrenen Juristen beurteilen lassen.
+- Management entscheidet (in Absprache mit einem Juristen) ob bei einem Security Incident rechtliche Schritte eingeleitet werden.
+    - Komplexe(re) Verträge nicht ohne juristischen Beistand abschliessen:
+    - Outsourcing / Outtasking (z.B. Managed Security) n Berater / Contractors
+- Neue Technologien können unerwartete juristische Implikationen bergen:
+    - Cloud Computing, Infrastructure as a Service (IaaS), Database as a Service (DBaaS)
+    - Software as a Service (SaaS)
+    - Bring your own device (BYOD)
+
+### IT Forensik
+
+#### Definition
+
+- **Forensik** ist ein Sammelbegriff für wissenschaftliche und technische Arbeitsgebiete, in denen z.B. kriminelle Handlungen systematisch untersucht werden
+- Die **IT-Forensik** ist ein Teilgebiet der Forensik und behandelt die Untersuchung von verdächtigen Vorfällen im Zusammenhang mit IT-Systemen und der Feststellung des Tatbestandes und der Täter durch Erfassung, Analyse und Auswertung digitaler Spuren.
+- Wesentliches Element der IT-Forensik ist die **Gerichtsfestigkeit** der digitalen Beweismittel und aller folgenden Aktivitäten, d.h. die Daten und Analyseschritte müssen den Anforderungen von Gerichten an Beweismittel genügen. Dies wird durch eine lückenlose und umfassende Dokumentation der Beweismittel (u.a. mit Fotos, Hashing, Vier-Augen-Prinzip, etc.) und aller weiteren Analyseschritte bis zum Ergebnis der forensischen Datenanalyse erreicht.
+
+#### Die '6 W'
+
+##### Wer:
+
+Wer hat Daten verändert, erstellt, gelöscht?
+
+##### Was:
+
+Was wurde genau gemacht?
+
+##### Wann:
+
+Zu welcher Uhrzeit und an welchem Datum ist dies geschehen?
+
+##### Wo:
+
+Wo ist der Tatort? Diese Angabe muss für die reale und die digitale Welt erfolgen (Der Server steht im Rechenzentrum in Zürich im Rack Nr. Z., die Veränderung ist auf der ersten Festplatte im Sektor 2048 erfolgt.
+
+##### Wie:
+
+Wie ist der Täter vorgegangen?
+
+##### Warum:
+
+Warum wurde dies gemacht? Wie kann eine Wiederholung verhindert werden?
+
+#### Anforderungen an die Vorgangsweise
+
+- Akzeptanz: Die angewandten Methoden und Schritte müssen in der Fachwelt beschrieben und allgemein akzeptiert sein
+- Glaubwürdigkeit: Robustheit und Funktionalität von Methoden ist gefordert
+- Wiederholbarkeit: Hilfsmittel und Methoden müssen auf dem gleichen Ausgangsmaterial dieselben Ergebnisse liefern
+- Integrität: Sichergestellte Spuren dürfen durch die Untersuchung nicht verändert worden sein; Integrität digitaler Beweise muss belegbar sein
+- Ursache und Auswirkungen: Durch die Auswahl der Methoden muss es möglich sein, logisch nachvollziehbare Verbindungen zwischen Ereignissen und Beweisspuren und evtl. auch Personen herzustellen
+- Dokumentation: Jeder Schritt des Ermittlungsprozesses muss angemessen dokumentiert werden
+
+#### Zu sichernde Daten
+
+- Daten, die im Rahmen einer forensischen Untersuchung gesichert werden, sind:
+
+##### Persistente Daten
+
+Daten, welche auf eine Festplatte oder ein sonstiges Medium geschrieben werden und dort gespeichert bleiben.
+
+##### Halb persistente Daten
+
+Dazu gehören temporäre Dateien, die Browser History und weitere Daten, die regelmässig gelöscht und überschrieben werden.
+
+##### Flüchtige Daten
+
+Flüchtige Daten sind beispielsweise Daten im Speicher, sie existieren nur, so lange der Computer in Betrieb ist. Bei einem Ausschalten oder einem Reboot gehen sie verloren.
+
+##### Echtzeit Daten
+
+Diese existieren nur, wenn sie explizit aufgezeichnet werden, dies ist z.B. bei einer Netzwerküberwachung der Fall.
+
+#### 'Pull the plug'?
+
+- Soll ein kompromittiertes System ausgeschaltet werden oder nicht?
+    - Laufen lassen bedeutet, keine Spuren von flüchtigen Daten zu verlieren.
+    - Es bedeutet aber auch, dass der Täter unter Umständen noch Zugriff hat und Beweismittel zerstören kann.
+    - Ausschalten bedeutet fast sicher den Verlust von Beweismitteln, ermöglicht aber erst gewisse Untersuchungen.
+    - Ausschalten heisst auch, dass die von diesem System erbrachten Leistungen ausfallen.
+- Es ist ein Abwägen zwischen:
+    - Betrieb sicherstellen
+    - Auswirkungen auf Sicherheit minimieren
+    - Eine gründliche Untersuchung ermöglichen
+- IT Forensik und BCM haben hier konkurrierende Ziele!
+- Management muss entscheiden, welches Ziel im aktuellen Fall Vorrang hat
+
+#### Schlussbemerkungen
+
+- Für IT Security benötigt man gut ausgebildete, kompetente und integere Personen.
+- Das Anforderungsprofil für IT Forensiker ist sogar noch spezifischer:
+
+…must be familiar with standard computer operating systems, networks and hardware as well as security software and document-creation applications. Analysts must have expertise in hacking and intrusion techniques and prior experience with security testing and computer system diagnostics. Analysts are expected to have excellent analytical skills, to be highly conscious of details, to be able to multi-task efficiently and to be familiar with the requirements of chain-of-custody.
+
+-> Es kann sinnvoll sein, IT Forensik als externe Dienstleistung einzukaufen  
+-> Bauen Sie die Kontakte auf, bevor Sie sie benötigen – es wird dringend sein
+
+### Business Continuity Management (BCM) Disaster Recovery Planning (DRP)
+
+#### Definition
+
+- Betriebskontinuitätsmanagement (Business Continuity Management – BCM) bezeichnet die Entwicklung von Strategien, Plänen und Handlungen, um Tätigkeiten oder Prozesse – deren Unterbrechung der Organisation ernsthafte Schäden oder vernichtende Verluste zufügen würden – zu schützen, bzw. alternative Abläufe zu ermöglichen. Ziel ist die Sicherstellung des Fortbestands des Unternehmens im Sinne ökonomischer Nachhaltigkeit im Angesicht von Risiken mit hohem Schadensausmass.
+- Notfallwiederherstellung (Disaster Recovery Plan – DPR) bezeichnet Massnahmen, die nach einem Unglücksfall in der Informationstechnik eingeleitet werden. Dazu zählt sowohl die Datenwiederherstellung als auch das Ersetzen nicht mehr benutzbarer Infrastruktur, Hardware und Organisation.
+
+#### BCM & DRP
+
+- Die Disziplinen sind eng miteinander verknüpft: BCM versucht Auswirkungen zu minimieren, bzw. beherrschbar zu machen während DRP bei Notfällen zum Zug kommt.
+- Aufbau und Betrieb folgen grob dem bekannten PDCA-Ansatz:
+    - Analyse
+    - Planung
+    - Umsetzung
+    - Test
+
+#### Begriffe
+
+##### Recovery Time Objective (RTO)
+Wie lange darf ein Geschäftsprozess/System ausfallen? Die Zeit, die vom Zeitpunkt des Schadens bis zur vollständigen Wiederherstellung der Geschäftsprozesse (Wiederherstellung von: Infrastruktur - Daten Nacharbeitung von Daten - Wiederaufnahme der Aktivitäten) vergehen darf. Der Zeitraum kann variieren zwischen 0 Minuten (Systeme müssen verfügbar bleiben) und mehreren Tagen oder Wochen
+
+##### Recovery Point Objective (RPO)
+Wie viel Datenverlust kann in Kauf genommen werden? Der Zeitraum, der zwischen zwei Datensicherungen liegen darf, d.h. wie viele Daten / Transaktionen zwischen der letzten Sicherung und dem Systemausfall höchstens verloren gehen dürfen. Kein akzeptabler Datenverlust ist ein RPO von 0 Sekunden
+
+#### Analyse
+
+- Erstes Ziel ist die Fortsetzung der Geschäftstätigkeit. Während einer gewissen Zeit kann dabei auf bestimmte Systeme/Prozesse verzichtet werden. Die BCM Analyse zeigt auf, welche Prozesse wie lange nicht verfügbar sein dürfen ohne das Überleben der Unternehmung zu gefährden.
+- Dazu werden RTO & RPO für IT Komponenten bestimmt.
+- Zu beachten ist, dass 'IT Komponenten' nicht zu eng gefasst werden dürfen:
+    - Hardware
+    - Software
+    - Netzwerk
+    - Strom
+    - Kommunikation
+    - Arbeitsplätze
+    - evtl. weitere Aspekte
+
+- Je nach RTO & RPO definieren sich Anforderungen (Non-functional requirements) an Architektur von Gebäuden, Systemen und Applikationen.
+- Mögliche Strategien zur Erreichung eines RTO reichen von 'kalten' Rechenzentren über Möglichkeit der Nutzung von Ressourcen bei Konkurrenten über Verträge zur 'Notfall-Lieferung' mit Lieferanten bis hin zu redundanten Rechenzentren.
+- Zu beachten, wenn Daten nicht redundant gespeichert sind: Können die Daten in nützlicher Frist bereitgestellt werden und können die Daten auf den Disaster Recovery Systemen so schnell wiederhergestellt werden, dass das RTO & RPO erreicht werden kann? Selbst wenn parallel dazu andere Systeme aufgebaut/wiederhergestellt werden müssen?
+
+#### Planung
+
+- Die Notfallplanung beschreibt umfassend und allgemein verständlich die bei verschiedenen Katastrophen (z.B. Systemausfall, Brand/Wasser, Kommunikationsausfall) zu treffenden Massnahmen.
+- Die Pläne müssen:
+    - Verfügbar (nicht nur im Computer…) und aktuell sein
+    - Adresslisten und Notfallnummern enthalten
+    - Krisenmanagement, Eskalationen und Informationswege definieren
+    - Sofortmassnahmen beschreiben
+    - Pläne für Geschäftsfortführung und Wiederanlauf enthalten
+    - Kommunikation und Öffentlichkeitsarbeit definieren
+- Sehr wichtig für Wiederanlaufverfahren ist die Reihenfolge, in welcher vorgegangen werden muss (Bootstrap-Problematik: was muss verfügbar sein, bevor ein System gestartet werden kann).
+
+#### Umsetzung
+
+- Die in den Notfallplänen benötigten Vorbedingungen müssen geschaffen werden:
+    - Schaffung organisatorischer Voraussetzungen:
+        - Rollen definieren
+        - Organisation aufbauen
+        - Verantwortlichkeiten bestimmen
+    - Ressourcen bereitstellen (Zeit, Geld, Hardware, Verträge, …)
+    - Mitarbeiter sensibilisieren und schulen
+    - Regelmässige Tests
+
+#### Test
+
+- BCM & DRP Prozesse müssen regelmässig getestet werden. Die dabei gewonnenen Erkenntnisse müssen zur Verbesserung der existierenden Pläne genutzt werden.
+- Die Balance zwischen Aussagekraft und Risiko zu finden kann schwierig sein: ein fehlgeschlagener Test kann zu einem BCM / DRP Szenario führen, ein zu optimistischer Test deckt allfällige Schwachstellen nicht auf.
+
+
+
 ## Nachbearbeitung
 
 https://moodle.ffhs.ch/mod/assign/view.php?id=3731223
+
+---
+
+## Prüfungsvorbereitung
+
+### Aufgabe 1
+
+Begründen Sie knapp, warum die Massnahmen beim IT Grundschutz in Bausteine gegliedert werden
+
+Die Gliederung in Bausteine ergibt einen Modulbaukasten, aus dem ein Unternehmen je nach Situation (IT Infrastruktur, IT Organisation) und Bedarf (Sicherheitsanforderungen) den oder die benötigten Baustein(e) auswählen und die entsprechenden Massnahmen umsetzen kann. Die Modularisierung erlaubt zudem eine Aktualisierung und Erweiterung, bzw. Reduktion der bestehenden Module.
+
+### Aufgabe 2
+
+Mit welcher der folgenden Tätigkeiten würden Sie den Aufbau und die Einführung eines ISMS beginnen? Begründen Sie Ihre Wahl kurz.
+
+- a) IT Struktur analysieren
+
+- b) Mitarbeiter sensibilisieren
+
+- c) Leitlinie erstellen
+
+- d) IT Dokumentationsstruktur festlegen
+
+C  
+Mitarbeitersensibilisierung macht erst Sinn, wenn das ISMS weitgehend definiert ist, die Struktur analysieren wir nachdem wir eine grobe Vorstellung von den Anforderungen haben und die Leitlinie als oberstes Dokument kommt vor der Dokumentationsstruktur.
+
+### Aufgabe 3
+
+Sie sind Security Officer Ihrer Firma und der Firmeninhaber zweifelt den Sinn des Risikomanagements an, da die Bewertungen 'eh subjektiv und ohne Bezug zur Realität' sind. Welche Argumente bringen Sie vor um ihn zu überzeugen, dass das Risikomanagement einen Mehrwert liefert?
+
+Bei der Umsetzung analoger Werte (Bedrohungen) in digitale Werte (Risikobewertung) müssen Kompromisse gemacht werden und eine gewisse Subjektivität lässt sich nicht vermeiden. Sie wird minimiert durch ein standardisiertes Vorgehen und dadurch, dass verschiedene Anspruchsgruppen innerhalb der Firma die Bewertung zusammen vornehmen.
+
+### Aufgabe 4
+
+Nennen Sie drei Prozesse im Personalwesen, welche aus Sicht IT Security von Bedeutung sind. Begründen Sie kurz.
+
+Rollenbeschreibung, Rekrutierung, Ausbildung, Erkennen fehlender Stellvertretung, Schlüsselpersonen identifizieren, Verletzung von Aufgabentrennung erkennen, Leistungsbeurteilung, Rollenwechsel und Austritt
+
+### Aufgabe 5
+
+Als Information Security Officer einer KMU werden Sie gefragt, ob es sinnvoller sei, das ISMS nach BSI oder nach COBIT aufzubauen. Was antworten Sie?
+
+Es gibt keine eindeutige Antwort: beide Frameworks haben Vor- und Nachteile, mit beiden Frameworks alleine oder einer Kombination aus beiden kann das Ziel erreicht werden. Die Entscheidung sollte aufgrund der aktuellen Situation und den zu erreichenden Zielen gefällt werden.
+
+### Aufgabe 6
+
+Nennen Sie je eine präventive (preventive) und detektive (detective) Kontrolle für die Sicherstellung der Systemintegrität (d.h. Sicherstellen, dass die Systemeinstellungen und Systemprogramme nicht verändert werden)
+
+Preventive: Change Management Detective: Regelmässige Prüfung der Systemeinstellungen und Programme durch z.B. Tripwire oder ähnliche Compliance Produkte
+
+### Aufgabe 7
+
+Beschreiben Sie kurz die Hauptmerkmale eines Prozesses.
+
+Eingang, Verarbeiten, Ausgang.
+
+Weitere Möglichkeiten: Integrierte Regelkreise & Output muss für den Kunden von Nutzen sein
+
+### Aufgabe 8
+
+Was bedeutet es für Sie, wenn Sie in einem RACI für einen (Teil)Prozess 'Accountable' sind?
+
+Sie sind Gesamtverantwortlich für diesen Prozess. Auch wenn Teile der Leistungserbringung nicht durch Sie oder Ihr Team erfolgen (als: 'R' bei anderen Teilnehmern) sind Sie für das Ergebnis verantwortlich und müssen daher kontrollieren, dass die Leistung zeitgerecht und in benötigter Qualität erbracht wird.
+
+### Aufgabe 9
+
+Handelt es sich in den folgenden Fällen um einen Incident oder ein Problem?
+
+- A: Das SIEM zeigt immer wieder unerklärliche Einbrüche in Performance
+- B: Die Tagesendverarbeitung ist durch einen Fehler abgebrochen
+- C: Die Buchhaltungssoftware erlaubt es nicht mehr, Buchungen zu erfassen
+- D: Ihr Mail Programm verliert regelmässig den Kontakt zum Server; Sie müssen es mehrmals täglich neu starten
+
+Lösung
+
+- A: SIEM Performance -> Problem
+- B: Tagesendverarbeitung abgebrochen -> Incident
+- C: Keine Buchungen -> Incident
+- D: Mail neu starten -> Problem
+
+### Aufgabe 10
+
+Weshalb führen Sie als Teil Ihres Risikomanagements ein Inventar der Risiken? Nennen Sie mindestens 4 Gründe.
+
+- Übersicht aller bekannten Risiken
+- Übersicht der Exceptions
+- Übersicht der Risk Acceptances
+- Kumulationen von Risiken erkennen
+- Sicherstellen, dass Aktionspläne zeitgerecht erledigt werden
+- Sicherstellen, dass Risiken, Exceptions und Acceptances regelmässig revalidiert werden
+
+### Aufgabe 11
+
+Muss zu jedem Risiko (mindestens) ein Aktionsplan bestehen? Weshalb?
+
+Grundsätzlich ja, da sonst die Risiken nicht eliminiert oder zumindest verringert werden. Bei Risk Accepances kann argumentiert werden, dass es nicht unbedingt Aktionspläne braucht.
+
+Bei stimmiger Begründung sind sowohl 'Ja' als 'Nein' korrekte Antworten.
+
+### Aufgabe 12
+
+Weshalb sind Root Cause Analysen wichtig?
+
+Weil sie es ermöglichen, die Ursache eines Problems zu adressieren.
+
+Damit wird nicht nur das aktuelle Problem behoben sondern auch die Wahrscheinlichkeit für zukünftige Probleme reduziert. Stichwort: Nachhaltigkeit.
+
+### Lernziele
+
+- Ich weiss um die Wichtigkeit der Ursachen-Analyse und kann sie anwenden n Ich kann den Nutzen einer Notfallvorsorge aufzeigen und organisatorische und technische Voraussetzungen für eine bedarfsgerechte Umsetzung erläutern
+- Ich habe ein grundsätzliches Verständnis der IT Forensik und weiss, welche Anforderungen beachtet werden müssen
+- Ich kann Grundbegriffe der Revision (Audit) erläutern n Ich kenne die schweizerischen Gesetzesnormen mit Einfluss auf IT Sicherheit
+
+#### Aufgaben
+
+1. Begründen Sie knapp, warum die Massnahmen beim IT Grundschutz in Bausteine gegliedert werden
+
+2. Mit welcher der folgenden Tätigkeiten würden Sie den Aufbau und die Einführung eines ISMS beginnen? Begründen Sie Ihre Wahl kurz.
+
+- a) IT Struktur analysieren
+
+- b) Mitarbeiter sensibilisieren
+
+- c) Leitlinie erstellen
+
+- d) IT Dokumentationsstruktur festlegen
+
+3. Sie sind Security Officer Ihrer Firma und der Firmeninhaber zweifelt den Sinn des Risikomanagements an, da die Bewertungen 'eh subjektiv und ohne Bezug zur Realität' sind. Welche Argumente bringen Sie vor um ihn zu überzeugen, dass das Risikomanagement einen Mehrwert liefert?
+
+4. Nennen Sie drei Prozesse im Personalwesen, welche aus Sicht IT Security von Bedeutung sind. Begründen Sie kurz.
+
+5. Als Information Security Officer einer KMU werden Sie gefragt, ob es sinnvoller sei, das ISMS nach BSI oder nach COBIT aufzubauen. Was antworten Sie?
+
+6. Nennen Sie je eine präventive (preventive) und detektive (detective) Kontrolle für die Sicherstellung der Systemintegrität (d.h. Sicherstellen, dass die Systemeinstellungen und Systemprogramme nicht verändert werden)
+
+7. Beschreiben Sie kurz die Hauptmerkmale eines Prozesses.
+
+8. Was bedeutet es für Sie, wenn Sie in einem RACI für einen (Teil)Prozess 'Accountable' sind?
+
+9. Handelt es sich in den folgenden Fällen um einen Incident oder ein Problem?
+
+- A: Das SIEM zeigt immer wieder unerklärliche Einbrüche in Performance
+- B: Die Tagesendverarbeitung ist durch einen Fehler abgebrochen
+- C: Die Buchhaltungssoftware erlaubt es nicht mehr, Buchungen zu erfassen
+- D: Ihr Mail Programm verliert regelmässig den Kontakt zum Server; Sie müssen es mehrmals täglich neu starten
+
+10. Weshalb führen Sie als Teil Ihres Risikomanagements ein Inventar der Risiken? Nennen Sie mindestens 4 Gründe.
+
+11. Muss zu jedem Risiko (mindestens) ein Aktionsplan bestehen? Weshalb?
+
+12. Weshalb sind Root Cause Analysen wichtig?
+
+#### Lösungen
+
+1. Die Gliederung in Bausteine ergibt einen Modulbaukasten, aus dem ein Unternehmen je nach Situation (IT Infrastruktur, IT Organisation) und Bedarf (Sicherheitsanforderungen) den oder die benötigten Baustein(e) auswählen und die entsprechenden Massnahmen umsetzen kann. Die Modularisierung erlaubt zudem eine Aktualisierung und Erweiterung, bzw. Reduktion der bestehenden Module.
+
+2. C Mitarbeitersensibilisierung macht erst Sinn, wenn das ISMS weitgehend definiert ist, die Struktur analysieren wir nachdem wir eine grobe Vorstellung von den Anforderungen haben und die Leitlinie als oberstes Dokument kommt vor der Dokumentationsstruktur.
+
+3. Bei der Umsetzung analoger Werte (Bedrohungen) in digitale Werte (Risikobewertung) müssen Kompromisse gemacht werden und eine gewisse Subjektivität lässt sich nicht vermeiden. Sie wird minimiert durch ein standardisiertes Vorgehen und dadurch, dass verschiedene Anspruchsgruppen innerhalb der Firma die Bewertung zusammen vornehmen.
+
+4. Rollenbeschreibung, Rekrutierung, Ausbildung, Erkennen fehlender Stellvertretung, Schlüsselpersonen identifizieren, Verletzung von Aufgabentrennung erkennen, Leistungsbeurteilung, Rollenwechsel und Austritt
+
+5. Es gibt keine eindeutige Antwort: beide Frameworks haben Vor- und Nachteile, mit beiden Frameworks alleine oder einer Kombination aus beiden kann das Ziel erreicht werden. Die Entscheidung sollte aufgrund der aktuellen Situation und den zu erreichenden Zielen gefällt werden.
+
+6. Preventive: Change Management Detective: Regelmässige Prüfung der Systemeinstellungen und Programme durch z.B. Tripwire oder ähnliche Compliance Produkte
+
+7. Eingang, Verarbeiten, Ausgang. Weitere Möglichkeiten; Integrierte Regelkreise & Output muss für den Kunden von Nutzen sein
+
+8. Sie sind Gesamtverantwortlich für diesen Prozess. Auch wenn Teile der Leistungserbringung nicht durch Sie oder Ihr Team erfolgen (als: 'R' bei anderen Teilnehmern) sind Sie für das Ergebnis verantwortlich und müssen daher kontrollieren, dass die Leistung zeitgerecht und in benötigter Qualität erbracht wird.
+
+9. A: SIEM Performance è Problem B: Tagesendverarbeitung abgebrochen è Incident C: Keine Buchungen è Incident D: Mail neu starten è Problem
+
+10. 
+- Übersicht aller bekannten Risiken
+
+- Übersicht der Exceptions
+
+- Übersicht der Risk Acceptances
+
+- Kumulationen von Risiken erkennen
+
+- Sicherstellen, dass Aktionspläne zeitgerecht erledigt werden
+
+- Sicherstellen, dass Risiken, Exceptions und Acceptances regelmässig revalidiert werden
+
+11. Grundsätzlich ja, da sonst die Risiken nicht eliminiert oder zumindest verringert werden. Bei Risk Accepances kann argumentiert werden, dass es nicht unbedingt Aktionspläne braucht. Bei stimmiger Begründung sind sowohl 'Ja' als 'Nein' korrekte Antworten.
+
+12. Weil sie es ermöglichen, die Ursache eines Problems zu adressieren. Damit wird nicht nur das aktuelle Problem behoben sondern auch die Wahrscheinlichkeit für zukünftige Probleme reduziert.
+
+
 
 ---
 # Zusammenfassugen - IT Security Management
@@ -3787,6 +4532,75 @@ Für die kontinuierliche Verbesserung der IT-Sicherheitsprozesse sind für den S
 
 - Steigerung der Qualität und somit höhere Kundenzufriedenheit.
 
+# Prüfungsvorbereitung
+
+![2021-06-19_15-19-58](img/2021-06-19_15-19-58.png)
+
+![2021-06-19_15-23-59](img/2021-06-19_15-23-59.png)
+
+![2021-06-19_15-20-06](img/2021-06-19_15-20-06.png)
+
+![2021-06-19_15-24-07](img/2021-06-19_15-24-07.png)
+
+![2021-06-19_15-20-16](img/2021-06-19_15-20-16.png)
+
+![2021-06-19_15-24-13](img/2021-06-19_15-24-13.png)
+
+![2021-06-19_15-20-29](img/2021-06-19_15-20-29.png)
+
+![2021-06-19_15-24-19](img/2021-06-19_15-24-19.png)
+
+![2021-06-19_15-20-37](img/2021-06-19_15-20-37.png)
+
+![2021-06-19_15-24-25](img/2021-06-19_15-24-25.png)
+
+![2021-06-19_15-20-45](img/2021-06-19_15-20-45.png)
+
+![2021-06-19_15-24-33](img/2021-06-19_15-24-33.png)
+
+![2021-06-19_15-20-56](img/2021-06-19_15-20-56.png)
+
+![2021-06-19_15-24-50](img/2021-06-19_15-24-50.png)
+
+![2021-06-19_15-21-16](img/2021-06-19_15-21-16.png)
+
+![2021-06-19_15-25-01](img/2021-06-19_15-25-01.png)
+
+![2021-06-19_15-21-24](img/2021-06-19_15-21-24.png)
+
+![2021-06-19_15-25-11](img/2021-06-19_15-25-11.png)
+
+![2021-06-19_15-21-37](img/2021-06-19_15-21-37.png)
+
+![2021-06-19_15-25-20](img/2021-06-19_15-25-20.png)
+
+![2021-06-19_15-21-46](img/2021-06-19_15-21-46.png)
+
+![2021-06-19_15-25-28](img/2021-06-19_15-25-28.png)
+
+![2021-06-19_15-21-53](img/2021-06-19_15-21-53.png)
+
+![2021-06-19_15-25-35](img/2021-06-19_15-25-35.png)
+
+![2021-06-19_15-22-05](img/2021-06-19_15-22-05.png)
+
+![2021-06-19_15-25-42](img/2021-06-19_15-25-42.png)
+
+![2021-06-19_15-22-13](img/2021-06-19_15-22-13.png)
+
+![2021-06-19_15-25-50](img/2021-06-19_15-25-50.png)
+
+![2021-06-19_15-22-20](img/2021-06-19_15-22-20.png)
+
+![2021-06-19_15-26-02](img/2021-06-19_15-26-02.png)
+
+![2021-06-19_15-22-27](img/2021-06-19_15-22-27.png)
+
+![2021-06-19_15-27-21](img/2021-06-19_15-27-21.png)
+
+![2021-06-19_15-22-34](img/2021-06-19_15-22-34.png)
+
+![2021-06-19_15-27-31](img/2021-06-19_15-27-31.png)
 
 ---
 **Fett**
