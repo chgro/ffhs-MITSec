@@ -11,9 +11,9 @@
   * [Lernziele](#lernziele)
   * [Vorbereitung](#vorbereitung)
     + [CobIT - Control Objectives for Information and Related Technology](#cobit---control-objectives-for-information-and-related-technology)
-    + [ISO/IEC 27001](#iso-iec-27001)
+    + [ISO/IEC 27001](#iso/iec-27001)
     + [ITIL - Information Technology Infrastructure Library](#itil---information-technology-infrastructure-library)
-    + [BSI - Bundesamt für Sicherheit in der Informationstechnik (Deutschland)](#bsi---bundesamt-f-r-sicherheit-in-der-informationstechnik--deutschland-)
+    + [BSI - Bundesamt für Sicherheit in der Informationstechnik (Deutschland)](#bsi---bundesamt-für-sicherheit-in-der-informationstechnik--deutschland-)
     + [Common Criteria](#common-criteria)
     + [OSSTMM](#osstmm)
     + [FIPS 140](#fips-140)
@@ -27,10 +27,10 @@
     + [Notfallteam](#notfallteam)
     + [Risikomanagement](#risikomanagement)
     + [IKS - Internes Kontrollsystem](#iks---internes-kontrollsystem)
-    + [PDCA-Zyklus - Plan, Do, Check, Act](#pdca-zyklus---plan--do--check--act)
+    + [PDCA-Zyklus - Plan Do Check Act](#pdc-zyklus---plan-do-check-act)
     + [Risikoanalyse](#risikoanalyse)
-      - [Vorbereitung](#vorbereitung-1)
-      - [Durchführung](#durchf-hrung)
+      - [Vorbereitung](#vorbereitung)
+      - [Durchführung](#durchführung)
     + [Risikoidentifikation](#risikoidentifikation)
     + [Risikobbewertung](#risikobbewertung)
       - [Risk Map](#risk-map)
@@ -43,29 +43,29 @@
       - [IT-Sicherheitsstrategie](#it-sicherheitsstrategie)
       - [IT-Sicherheitskonzept](#it-sicherheitskonzept)
       - [Kontrollmodell](#kontrollmodell)
-    + [Managementsystem für IT-Sicherheit entwickeln](#managementsystem-f-r-it-sicherheit-entwickeln)
+    + [Managementsystem für IT-Sicherheit entwickeln](#managementsystem-für-it-sicherheit-entwickeln)
       - [Komponenten eines ISMS](#komponenten-eines-isms)
       - [MAnagementprinzipien](#managementprinzipien)
-    + [Kontrolle der Überwachungsziele](#kontrolle-der--berwachungsziele)
-    + [Auswertung von Sicherheitsvorfälle](#auswertung-von-sicherheitsvorf-lle)
-    + [Überwachunngs und Detektionssysteme](#-berwachunngs-und-detektionssysteme)
+    + [Kontrolle der Überwachungsziele](#kontrolle-der-Überwachungsziele)
+    + [Auswertung von Sicherheitsvorfälle](#auswertung-von-sicherheitsvorfälle)
+    + [Überwachunngs und Detektionssysteme](#Überwachunngs-und-detektionssysteme)
     + [Beweissicherung](#beweissicherung)
     + [Eskalationsplan](#eskalationsplan)
     + [Personelle Massnahmen](#personelle-massnahmen)
       - [Personelle SIcherheitsmassnahmen](#personelle-sicherheitsmassnahmen)
       - [Sicherheitsweisungen](#sicherheitsweisungen)
-      - [Regelmässige Sicherheitsschulungen](#regelm-ssige-sicherheitsschulungen)
+      - [Regelmässige Sicherheitsschulungen](#regelmässige-sicherheitsschulungen)
       - [Austritt von Mitarbeitenden](#austritt-von-mitarbeitenden)
     + [Organisatorische Massnahmen](#organisatorische-massnahmen)
-      - [Konzepte für die IT-Sicherheit](#konzepte-f-r-die-it-sicherheit)
+      - [Konzepte für die IT-Sicherheit](#konzepte-für-die-it-sicherheit)
       - [Weisungen](#weisungen)
       - [Verwaltung der Konzepte, Weisungen, Sicherheitsdokumente](#verwaltung-der-konzepte--weisungen--sicherheitsdokumente)
       - [Life-Cycle-Management](#life-cycle-management)
       - [Management-Tipps](#management-tipps)
-  * [Präsenz](#pr-senz)
+  * [Präsenz](#präsenz)
       - [Agenda](#agenda)
       - [Bedrohungen wandeln sich](#bedrohungen-wandeln-sich)
-      - […sind aber auch inhärent](#-sind-aber-auch-inh-rent)
+      - […sind aber auch inhärent](#-sind-aber-auch-inhärent)
       - [Enemy Within…](#enemy-within-)
       - […and Outside](#-and-outside)
       - [Data Breaches](#data-breaches)
@@ -73,8 +73,8 @@
       - [Marktplatz](#marktplatz)
     + [Vorgehen zum Aufbau eines ISMS](#vorgehen-zum-aufbau-eines-isms)
       - [ISIS12](#isis12)
-        * [Übersicht](#-bersicht)
-        * [Phase 0: Wieso benötige ich ein ISMS?](#phase-0--wieso-ben-tige-ich-ein-isms-)
+        * [Übersicht](#Übersicht)
+        * [Phase 0: Wieso benötige ich ein ISMS?](#phase-0--wieso-benötige-ich-ein-isms-)
         * [Phase 1: Initialisierung](#phase-1--initialisierung)
         * [Phase 2: Aufbau- & Ablauforganisation](#phase-2--aufbau----ablauforganisation)
         * [Phase 3: Entwicklung und Umsetzung](#phase-3--entwicklung-und-umsetzung)
@@ -95,7 +95,7 @@
       - [Identifizieren von Risiken](#identifizieren-von-risiken)
       - [Threat Model](#threat-model)
     + [Aufbauorganisation ISMS](#aufbauorganisation-isms)
-      - [Übersicht](#-bersicht-1)
+      - [Übersicht](#Übersicht-1)
       - [Managementprinzipien](#managementprinzipien)
       - [Organisation](#organisation)
       - [Ressourcen](#ressourcen)
@@ -111,14 +111,14 @@
         * [Rekrutierung](#rekrutierung)
         * [Ausbildung](#ausbildung)
         * [Erkennen fehlender Stellvertretung](#erkennen-fehlender-stellvertretung)
-        * [Schlüsselpersonen identifizieren](#schl-sselpersonen-identifizieren)
+        * [Schlüsselpersonen identifizieren](#schlüsselpersonen-identifizieren)
         * [Verletzung von Aufgabentrennung erkennen (Segregation of Duties)](#verletzung-von-aufgabentrennung-erkennen--segregation-of-duties-)
         * [Leistungsbeurteilung](#leistungsbeurteilung)
         * [Rollenwechsel und Austritt](#rollenwechsel-und-austritt)
           + [Nachbearbeitung](#nachbearbeitung)
 - [2 Control Frameworks und IT Security Massnahmen](#2-control-frameworks-und-it-security-massnahmen)
-          + [Lernziele](#lernziele-1)
-  * [Vorbereitung](#vorbereitung-2)
+          + [Lernziele](#lernziele)
+  * [Vorbereitung](#vorbereitung)
     + [IT-Sicherheit](#it-sicherheit)
     + [Schutzziel Datensicherheit](#schutzziel-datensicherheit)
       - [Schutzziele (CIA)](#schutzziele--cia-)
@@ -447,6 +447,9 @@
 - [Fragen](#fragen)
 - [Prüfungsvorbereitung](#pr-fungsvorbereitung-1)
 
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 
 Die Studierenden erhalten einen vertieften Einblick in das Manage- ment von Informationssicherheit und lernen die grundlegenden Konzepte und Prozesse, um in einer Firma die Informationssicher- heit aufzubauen, zu überwachen, zu prüfen und laufend zu verbes- sern.
 
@@ -648,7 +651,7 @@ Eine Methode für Risikoanalysen ist die im BSI-Standard 100-3 "Risikoanalyse a
 
 4.2 & 4.3 
 
-### PDCA-Zyklus - Plan, Do, Check, Act
+### PDCA-Zyklus - Plan Do Check Act
 
 ### Risikoanalyse
 - ermitteln und bewerten
@@ -686,13 +689,12 @@ Eine Methode für Risikoanalysen ist die im BSI-Standard 100-3 "Risikoanalyse a
     - Verfügbarkeit
     - Integrität
     - Verbindlichkeit
-    
 ### BCM - Business Continuity Managements
 
 ### Strukturanalyse
 - Erhebung der IT-Inftrastruktur
 - Grundlage für Ermittlung des Schutzbedarfs nach BSI
--Vorgehen
+  -Vorgehen
     - Netzplan erheben
     - Komplexität durch clustering reduzieren
     - Schutzbedarf von Anwendungen festlegen
@@ -731,7 +733,6 @@ Eine Methode für Risikoanalysen ist die im BSI-Standard 100-3 "Risikoanalyse a
     - Bewertung der Risiken von bestehenden oder geplanten Geschäftsprozessen und Applikationen verbunden sind
     - Festlegung der RIsikobewältigungsstrategie
     - Auswahl angemessener Sicherheitsmassnahmen
-    
 #### Kontrollmodell
 - Prozessbezogene Steuerungsvorgaben (Control Objectives)
 
@@ -745,7 +746,7 @@ Eine Methode für Risikoanalysen ist die im BSI-Standard 100-3 "Risikoanalyse a
 - Mitarbeitende
 - Sicherheitsprozesse
 
-#### MAnagementprinzipien
+#### Managementprinzipien
 - Gesamtverantwortung übernehmen
 - IT-Sicherheit integrieren
 - Aktive beteiligung der Führungspersonen
@@ -946,7 +947,7 @@ https://zerodium.com/program.html
 - Es gibt verschiedene Frameworks die beschreiben, wie ein ISMS aufgebaut werden kann. Wir werden zwei behandeln: BSI & COBIT.
 - Die Frameworks geben gute Hilfestellung dabei, was aufgebaut werden soll. Wieviel davon und in welcher Tiefe Sie das in Ihrer Umgebung umsetzen bleibt Ihnen überlassen. 
 - Aufbauend auf dem BSI Standard hat der Bayrische Sicherheitscluster e.V. das ISIS12 Vorgehensmodell (Informations-SIcherheitsmanagementSystem in 12 Schritten) erstellt. Es ist zugeschnitten auf die Bedürfnisse des Mittelstands und beschreibt ein einfach einzuführendes ISMS, welches ISMS und IT-Service Management verknüpft. Das Verfahren kann als mögliche Vorstufe zur ISO/IEC 27001- bzw. BSI IT-Grundschutz-Zertifizierung verwendet werden. 
-  
+
 https://www.it-sicherheit-bayern.de/produkte-dienstleistungen/isis12
 
 ##### Übersicht
@@ -963,7 +964,7 @@ https://www.it-sicherheit-bayern.de/produkte-dienstleistungen/isis12
 - Mitarbeiter sensibilisieren
     - Auf allen Organisationsebenen muss die Notwendigkeit von IT Security kommuniziert werden.
     - Wir gehen hier etwas weiter als ISIS12 und beleuchten ausserdem Sicherheitsüberprüfung (vetting) von Mitarbeitern, Schulung und Austritt von Mitarbeitern (IAM)
-    
+
 Gibt es einen Weg die Sicherheit zu umgehen - Sie wird umgangen...
 
 ##### Phase 2: Aufbau- & Ablauforganisation
@@ -1090,7 +1091,7 @@ Vieles ist gut angedacht, fast alles ist nicht fertig gedacht worden und nucht f
 >- Availability (Verfügbarkeit)
 >    - Die Verfügbarkeit stellt sicher, dass ein berechtigter Benutzer zu dem Zeitpunkt auf eine Information zugreifen kann, zu der er sie braucht.
 >    - Eine Verfügbarkeit von 99.99% entspricht dabei einer jährichen Ausfallzeit von ca. 1h.
-    
+
 #### Wahrnehmung von Risiken
 
 - Welches Tier ist gefährlicher?
@@ -1165,6 +1166,9 @@ Dokumentierte Bedrohungslage:
 >- quantitativ: ab 90% Antivirus Programme auf allen Endgeräten gilt als i.O.
 >
 >- qualitativ: alle Endgeräte mit dem Programm Antivir123 gelten als i.O.
+
+
+
 
 ### Aufbauorganisation ISMS
 
@@ -1310,11 +1314,156 @@ Belohnung ist besser als Bestrafung.
 ##### Rollenwechsel und Austritt
   - Berechtigungen sollen bei internen Wechseln oder Austritten zeitnah entfernt werden. Bei kündenden oder gekündigten Mitarbeitern kann die Gefahr von Data Leaks bestehen.
 
-###### Nachbearbeitung
+### Nachbearbeitung
 
 Empfehlung: ITIL-Foundations Kurs besuchen!
 
 https://moodle.ffhs.ch/mod/assign/view.php?id=3731177
+
+#### Bring your own Device (BYOD)
+
+Mit Bring your own Device werden Strategien bezeichnet, bei denen Mitarbeiter ihre eigenen IT-Geräte in die Institution mitbringen und einsetzen dürfen. Im Gegensatz zu Consumerisation werden durch BYOD also Consumer-Endgeräte im Informationsverbund der Institution zugelassen, die nicht der Institution gehören. Alle hier vorgestellten Gefährdungen für die Informationssicherheit sind im Wesentlichen auch dann relevant, wenn in der Institution eine BYOD-Strategie umgesetzt wird, da sowohl bei Consumerisation als auch BYOD IT-Geräte aus dem privaten Endkunden-Bereich im beruflichen Umfeld eingesetzt werden.
+
+Allerdings sind die Sicherheitsmaßnahmen bei BYOD deutlich schwieriger umzusetzen, da viele Benutzer erfahrungsgemäß nicht bereit sind, für ihre eigenen Geräte Einschränkungen hinzunehmen oder Zugriffe auf das Gerät durch den Arbeitgeber zu erlauben. Vor allem Sicherheitsmaßnahmen, bei denen Eingriffe erforderlich sind, so dass die Garantie für das Gerät erlischt, werden sich in der Regel nicht umsetzen lassen. Zusätzlich steigt die Heterogenität des Endgeräte-Parks, wenn eine BYOD-Strategie umgesetzt wird.
+
+Daher muss bei BYOD-Überlegungen als Erstes geklärt werden,
+
+- ob eine solche Strategie mit den Sicherheitsanforderungen der Institution vereinbar ist und
+- welche Rahmenbedingungen dabei eingehalten werden müssten und ob unter diesen Rahmenbedingungen BYOD für die Mitarbeiter überhaupt noch akzeptabel ist.
+
+Wenn eine BYOD-Strategie nicht mit den Sicherheitsanforderungen des Unternehmens oder der Behörde vereinbar ist, beziehungsweise die nötigen Randbedingungen für die Mitarbeiter inakzeptabel sind, kann in dieser Institution in der Regel kein BYOD umgesetzt werden. Aus Sicherheitssicht kann BYOD zudem auch nicht bedeuten, dass beliebige Endgeräte uneingeschränkt eingesetzt werden dürfen. Typische und meist tragbare Lösungen sind:
+
+- Beschränkung auf ausgewählte Endgeräte-Typen: Die wenigsten Institutionen werden in der Lage sein, eine unbeschränkte Menge von verschiedenen Endgeräte-Typen, Betriebssystemen und Applikationen zu administrieren und deren Sicherheit im Blick zu behalten. Daher sollte auch bei einer BYOD-Strategie die Art der zugelassenen Endgeräte beschränkt werden, abhängig von den Ressourcen des IT-Betriebs.
+- Benutzertypen identifizieren: Ebenso sollten die verschiedenen Benutzertypen identifiziert werden. Nicht jeder Mitarbeiter möchte unbedingt eigene Geräte einsetzen und auch die Motivation, dies tun zu wollen, kann sehr unterschiedlich sein. Daher kann es sinnvoll sein, für die verschiedenen Personengruppen jeweils angepasste Spielregeln zu erstellen. IT-affine Personen können z. B. auch Sicherheitsmaßnahmen umsetzen, die erklärungsbedürftig sind und bei denen sie selbst aktiv werden müssen. Viele Mitarbeiter wollen meistens nur unterwegs Termine einsehen oder im Internet arbeiten können. Hierfür lassen sich meist einfach sicherheitskonforme Lösungen finden. Wünsche, administrative Zugriffe aus der Ferne von einem Smartphone aus durchführen zu können, sind aus Sicherheitssicht wesentlich schwieriger zu lösen.
+
+Mit einer BYOD-Strategie wird den Mitarbeitern eine sehr große Verantwortung nicht nur für die Sicherheit der Endgeräte, sondern auch für die Gesamtsicherheit der Institution übertragen. Diesem Kontrollverlust muss ein valides Vertrauen der Institution in das Verantwortungsbewusstsein der Mitarbeiter gegenüberstehen. Auf der Basis dieses Vertrauens müssen klare Regelungen zwischen Mitarbeitern und Institution vereinbart werden. Die Mitarbeiter müssen dabei zusichern, dass auf den Endgeräten
+
+- aktuelle Virenschutz-Programme (soweit verfügbar) eingesetzt werden,
+- alle Sicherheitspatches zeitnah eingespielt werden,
+- jedes Endgerät ausschließlich durch den jeweiligen Mitarbeiter genutzt wird,
+- der Zugriff auf die Endgeräte angemessen geschützt ist, z. B. durch starke Passwörter, und
+- alle lokal gespeicherten Daten verschlüsselt werden.
+
+Weitere Punkte aus dieser Vereinbarung sollten sein:
+
+- Die Mitarbeiter müssen sofort melden, wenn Endgeräte, die auch für berufliche Belange genutzt wurden, verloren gegangen sind. Eine solche Meldung sollte auch gemacht werden, wenn ein Endgerät nur für eine gewisse Zeitspanne nicht auffindbar ist. Die Institution sollte prüfen, ob Mitarbeiter durch einen institutionseigenen bereitgestellten Dienst zur Löschung, Sperrung und Lokalisation der Endgeräte motiviert werden können, Verluste besonders schnell zu melden.
+- Es sollte geklärt sein, welche Anwendungen auf dem Endgerät ausgeführt werden dürfen und welche explizit ausgeschlossen werden. Hierzu könnte es beispielsweise eine Liste im Intranet geben. Viele MDM-Lösungen bieten Funktionen an, um spezielle Anwendungen zu erlauben bzw. auszuschließen. Ferner sollte es einen Prozess geben, Anwendungen in diese Listen aufzunehmen bzw. wieder entfernen zu lassen.
+- Es ist für die Anwender explizit zu verbieten, die Endgeräte zu rooten, einen Jailbreak oder sonstige tiefer gehende Eingriffe in das Endgerät durchzuführen.
+- Es ist zu regeln, welche Daten die Mitarbeiter mit anderen Endgeräten oder Diensten im Internet synchronisieren dürfen. Eine strikte Trennung von privaten und dienstlichen Daten muss dabei sichergestellt sein.
+- Die Institution sollte die Erlaubnis einholen, automatisierte Scans der Endgeräte im Rahmen von Netzzugangskontrollen durchzuführen, um überprüfen zu können, dass die Endgeräte die Sicherheitsvorgaben einhalten.
+- Es muss geregelt werden, wie mit dienstlichen Daten auf den Endgeräten verfahren wird, wenn diese nicht mehr dienstlich genutzt werden oder ein Mitarbeiter die Institution dauerhaft verlässt.
+
+Außerdem muss die Institution in einer solchen Vereinbarung festlegen, dass sie die Mitarbeiter regelmäßig über aktuelle Gefährdungen durch mobile Endgeräte und notwendige Sicherheitsmaßnahmen informiert.
+
+##### Fazit
+
+Die zunehmende berufliche Nutzung von Endgeräten aus dem privaten Umfeld durch Consumerisation und BYOD führt zu großen Herausforderungen für die Informationssicherheit, aber auch für den Datenschutz. Dies muss als strategische Herausforderung angesehen und von der Leitungsebene einer jeden Institution sinnvoll gestaltet werden. Wie in diesem Überblickspapier beschrieben, reichen technische Maßnahmen alleine nicht aus, sondern diese müssen durch organisatorische Maßnahmen flankiert werden, die im Einklang mit der Gesamtstrategie der Institution stehen. Dabei muss in dieser Gesamtstrategie der durch Consumerisation erhöhten Verantwortung für die Informationssicherheit für den Mitarbeiter angemessen Rechnung getragen werden. Es sollte immer im Blick behalten werden, ob die Geschäftsprozesse und deren Schutzbedarf es zulassen, dass sich die zugehörigen Informationen mit Consumer-Endgeräten sicher, rechtskonform, wirtschaftlich und einfach handhabbar verarbeiten lassen. Je nach den vorhandenen Rahmenbedingungen kann dies kann auch bedeuten, dass in der Institution Consumer-Endgeräte nicht oder nur eingeschränkt im Informationsverbund der Institution eingesetzt werden können.
+
+#### Online-Speicher
+
+##### Was sind Online-Speicher?
+
+Die Nutzung von Online-Speicher, oft auch Online Storage, Cloud Speicher oder Cloud Storage genannt, bietet Anwendern die Möglichkeit, Daten im Internet bzw. in einer sogenannten Cloud aufzubewahren und unabhängig von ihrem Aufenthaltsort darauf zuzugreifen.
+
+Online-Speicher-Dienste wie z. B. Dropbox, Wuala, CloudMe, TeamDrive, Telekom Mediencenter, Microsoft Skydrive oder Google Drive erfreuen sich in den letzten Jahren, auch in Deutschland, wachsender Beliebtheit. Die Gründe für den zu beobachtenden Anstieg der Nutzerzahlen sind dabei vielfältig. Waren Online-Speicher bis vor Kurzem meist nur in den USA beheimatet, ausschließlich in englischer Sprache verfügbar oder mit hohen Kosten verbunden, existieren nunmehr auch deutschsprachige und erheblich günstigere Angebote. Die steigende Zahl der Online-SpeicherAnbieter, die ihre Dienste speziell auf Kunden im geschäftlichen Umfeld zuschneiden, lässt bereits die wachsende Bedeutung von Online-Speichern für Unternehmen und Behörden auch in der näheren Zukunft erahnen.
+
+Die gängigen Online-Speicher-Dienste bieten in der Regel sowohl ein Programm zur Installation auf dem Rechner des Mitarbeiters als auch ein Webportal an, um direkt über das Internet auf die Daten zugreifen zu können. Die Client-Software legt dabei zumeist einen Ordner im Dateisystem des Benutzers an. Die darin befindlichen Daten werden automatisch oder manuell in den Online-Speicher übertragen. Bei weiteren Lösungen ist es dem Nutzer beispielsweise möglich, die zu übertragenden Daten einfach über den Dateimanager auszuwählen und anschließend zur Online-Speicherung freizugeben. Neben einer Client-Software und dem Zugriff über ein Web-Portal werden oftmals auch Applikationen, sogenannte Apps, für den Einsatz mit mobilen Endgeräten, wie etwa Smartphones oder Tablet-PCs, angeboten.
+
+##### Allgemeine Gefährdungsübersicht
+
+Institutionen, die sich für die Nutzung von Online-Speicher-Diensten interessieren, sollten sich im Vorfeld dieser - zumeist strategischen - Entscheidung mit den möglichen Risiken auseinandersetzen, die damit einhergehen. In diesem Zusammenhang ist die wichtige Frage zu klären, welche Daten in einen OnlineSpeicher übertragen werden sollen bzw. dürfen und welchen Schutzbedarf diese Daten haben.
+
+Aus dem Einsatz von Online-Speicher-Diensten kann sich für Behörden und Unternehmen eine Vielzahl von Gefährdungen ergeben. An dieser Stelle werden zunächst einige davon betrachtet, die ganz unabhängig von konkreten Anwendungsfällen auftreten können. Sie behalten ihre Relevanz auch bei der späteren Betrachtung spezifischer Einsatzszenarien.
+
+##### Datenverlust
+
+Die Geschäftsprozesse in Institutionen sind heutzutage größtenteils von Informationstechnik durchdrungen. Kommunikationsdaten, Verträge, Werbematerialien oder Konstruktionspläne liegen in vielen Fällen ausschließlich in digitaler Form vor. Für Unternehmen und Behörden sind diese Daten oftmals von großer Bedeutung. Datenverlust kann neben erheblichen finanziellen Belastungen, bis hin zur Bedrohung der Existenz, auch rechtliche Konsequenzen nach sich ziehen, wenn dadurch beispielsweise die gesetzliche Aufbewahrungsfrist für geschäftsrelevante Unterlagen nicht eingehalten wird.
+
+##### Nicht-Verfügbarkeit / Diensteausfall
+
+Ist der Zugriff auf die Daten der Institution nicht möglich, da der Online-Speicher-Dienst aufgrund eines Ausfalls des Providers oder der Internetverbindung nicht zur Verfügung steht, kann dies die Geschäftsprozesse innerhalb der Institution stören oder ganz stoppen. Wichtig sind in diesem Zusammenhang insbesondere die Verfügbarkeitsanforderungen an die betroffenen Daten. Sofern die Institution auf eine hohe Verfügbarkeit angewiesen ist, drohen bei längeren Ausfallzeiten des Anbieters finanzielle Verluste und Imageschädigungen.
+
+##### Verlust der Vertraulichkeit der Daten
+
+Neben der Verfügbarkeit des Online-Speichers und der darin abgelegten Daten hat für Unternehmen und Behörden vor allem auch die Vertraulichkeit der Informationen einen hohen Stellenwert. Gelingt es Angreifern beispielsweise, Zugang zu sensiblen Daten der Institution zu erlangen und diese z. B. einem breiteren Personenkreis zugänglich zu machen, drohen neben erheblichem Imageverlust auch rechtliche Konsequenzen und finanzielle Einbußen.
+
+##### Verlust der Integrität der Daten
+
+Bei der Übertragung von Daten, deren Bearbeitung über das Netz oder deren abschließender Speicherung können Integritätsprobleme auftreten, die bis hin zum Totalverlust führen können. Dies gilt auch für verschlüsselte Daten. Die Auswirkungen für die Institution sind ähnlich wie beim Verlust der Vertraulichkeit.
+
+##### Verstoß gegen Datenschutzbestimmungen
+
+Rechtliche Aspekte spielen für Unternehmen zudem immer dann eine Rolle, wenn personenbezogene Daten im Sinne des §3 Absatz 1 Bundesdatenschutzgesetz (BDSG) an einen Online-Speicher-Dienst übergeben werden. Eine solche Auftragsdatenverarbeitung ist, in Abhängigkeit vom tatsächlichen Speicherort der Daten, laut §11 BDSG nur unter bestimmten Voraussetzungen möglich und zudem an die Erteilung eines schriftlichen Auftrages gebunden. Bei einer Zuwiderhandlung gehen Institutionen das Risiko ein, gegen bestehendes Recht zu verstoßen und damit nicht nur ihren Ruf zu schädigen, sondern sich auch Schadenersatzansprüchen oder Bußgeldern gegenüberzusehen.
+
+##### Insolvenz des Cloud Service Providers
+
+Derzeit ändern sich die Geschäftsmodelle beim Cloud Computing rasant und auch die Anbieter wechseln. Falls ein Online-Speicher-Anbieter insolvent wird oder aus einem anderen Grund die Geschäftstätigkeit einstellt, kann dies dazu führen, dass die dort gespeicherten Daten für die Kunden ganz oder zumindest zeitweise nicht verfügbar sind und damit Geschäftsprozesse gestört werden oder ausfallen.
+
+##### Unsicheres Löschen
+
+Werden bei Vertragsende die Daten der Institution durch den Online-Speicher-Provider nicht ordnungsgemäß gelöscht, besteht die Gefahr, dass Unbefugte Zugriff auf die Daten erhalten.
+
+##### Unsichere Client-Software
+
+Sofern die Client-Software des Online-Speicher-Anbieters Schwachstellen aufweist, ist auf diesem Weg ebenfalls der Zugriff Unbefugter auf die Daten der Institution möglich.
+
+##### Wie kann diesen Risiken begegnet werden?
+
+Institutionen, die eine strategische Entscheidung für die geschäftliche Nutzung von Online-Speichern treffen, sollten ihr Augenmerk bei der Auswahl eines geeigneten Anbieters daher auf einige wichtige Punkte richten, da die Sicherheitsfunktionen von Anbieter zu Anbieter verschieden ausgestaltet sind.
+
+##### Ort der Datenspeicherung
+
+Idealerweise setzt der Anbieter des Online-Speichers seine Kunden darüber in Kenntnis, wo deren Daten tatsächlich gespeichert werden, an welchem Standort also die entsprechenden Server angesiedelt sind. Verfügt der Online-Speicher-Dienst über Standorte in unterschiedlichen Ländern, sollte es dem Kunden möglich sein, bestimmte Standorte fest auszuwählen oder auszuschließen.
+
+##### Gestaltung des Vertrags
+
+Der Vertrag zwischen dem Anbieter des Online-Speichers auf der einen Seite und der Institution auf der anderen Seite muss sich an den Anforderungen nach §11 BDSG orientieren, wenn personenbezogene Daten verarbeitet werden. Aber auch in anderen Fällen gibt diese Aufstellung eine sinnvolle Hilfestellung. Darüber hinaus sollte die Institution Wert auf eine ordentliche Verwaltung der Geschäftsbeziehung legen. Berücksichtigt man dies, wird das Risiko des Verstoßes gegen geltendes Recht bereits erheblich reduziert. Insbesondere beim Umgang mit personenbezogenen Daten empfiehlt sich jedoch zusätzlich eine genaue rechtliche Prüfung.
+
+##### Vereinbarungen zur Dienstgüte (SLA)
+
+Für Kunden, die Online-Speicher nutzen, um Unternehmens- oder Behördendaten zu speichern, sind sowohl die Verfügbarkeit des gewählten Dienstes als auch der Schutz der eigenen Daten vor Verlust, Veränderung oder Offenlegung wichtige Kriterien bei der Suche nach einem geeigneten Anbieter. Im Zusammenhang mit der Bereitstellung von IT-Dienstleistungen ist die Vereinbarung sogenannter Service Level Agreements (SLA) zwischen den Vertragspartnern eine gängige Vorgehensweise zur Sicherstellung des gewünschten Grades der Dienstgüte. Diese Praxis scheint bisher jedoch im Umfeld von Online-Speicher-Diensten noch nicht bzw. nur in wenigen Ausnahmefällen etabliert zu sein, entsprechend ist die Aushandlung von Strafzahlungen bei NichtVerfügbarkeiten kaum möglich. Institutionen fällt es daher schwer, sich ein Urteil darüber zu bilden, wie zuverlässig ein Online-Speicher-Dienst auf diesem Gebiet einzuordnen ist. Recherchen über die Geschäftszahlen des Anbieters, die Dauer seiner bisherigen Geschäftstätigkeit oder entsprechende Testberichte können hier beispielsweise als Anhaltspunkte herangezogen werden.
+
+##### Geeignete Authentisierungsmethoden
+
+Die Nutzung von Online-Speicher-Diensten geht in der Regel damit einher, einem Anbieter, mit dem bis zu diesem Zeitpunkt noch keine Geschäftsbeziehungen bestehen, interne Daten anzuvertrauen. Entsprechend kritisch sollten Institutionen in diesem Zusammenhang die Vertraulichkeit und Integrität der übertragenen Daten sehen und auf die Umsetzung entsprechender Schutzmaßnahmen beim gewählten Anbieter achten. Eine notwendige Sicherheitsmaßnahme, um Vertraulichkeit, Verfügbarkeit und Integrität gespeicherter Daten gewährleisten zu können, besteht in der Umsetzung geeigneter Zugangskontrollmechanismen. Bereits zu dem Zeitpunkt, wenn sich ein Kunde bei einem Online-Speicher-Dienst registriert, sollte der Anbieter hier für ein angemessenes Sicherheitsniveau Sorge tragen, indem er beispielsweise die Existenz und den Zugriff des Kunden auf die angegebene E-Mail-Adresse, die für die Registrierung verwendet wird, validiert. Außerdem sollte ein Anbieter generell dem Schutzbedarf der Kundendaten angemessene Authentisierungsmechanismen anbieten, beispielsweise Zwei-Faktor-Authentisierung. Bei Passwort-basierten Verfahren sollte unter anderem die Passwortgüte angezeigt werden und nur ausreichend starke Passwörter zugelassen werden. Der Anbieter sollte ebenfalls ein geeignetes Verfahren zum Umgang mit fehlgeschlagenen Anmeldeversuchen bzw. zur Rücksetzung von Benutzerpasswörtern im Einsatz haben. Hier bietet sich beispielsweise eine Time-OutFunktionalität an, die einen erneuten Anmeldeversuch erst nach Ablauf einer festgelegten Zeitspanne erlaubt. Auf diesem Weg kann Angriffen entgegenwirkt werden, die auf dem Erraten des Passwortes durch Ausprobieren unterschiedlicher Varianten basieren.
+
+##### Verschlüsselung der Daten
+
+Werden schützenswerte Daten über ungeschützte Netze übertragen, muss über den Einsatz zuverlässiger Verschlüsselungsverfahren intensiv nachgedacht werden. Wenn geschäftsrelevante Daten einer Institution in Online-Speichern gespeichert werden, sollten diese auch verschlüsselt werden. Die Verschlüsselung von Daten kann dabei
+
+- ausschließlich auf dem Transportweg (Data-in-Motion),
+
+- am eigentlichen Speicherort der Daten (Data-at-Rest) oder
+
+- bereits auf dem Client des jeweiligen Benutzers (Data-at-Rest)
+
+vorgenommen werden. Welche Variante sich für den Einsatz im institutionellen Umfeld am besten eignet, hängt unter anderem vom Schutzbedarf der übertragenden Daten ab. Vertrauliche Informationen sollten in einem Online-Speicher verschlüsselt abgelegt werden. Die Verschlüsselung innerhalb der eigenen Institution erfordert ein geeignetes Schlüsselmanagement.
+
+##### Verschlüsselung auf dem Transportweg
+
+Die Verschlüsselung der Daten auf dem Transportweg wird von der überwiegenden Zahl der untersuchten Online-Speicher-Anbieter standardmäßig angeboten, ohne dass hierfür zusätzliche Kosten oder zusätzlicher Arbeitsaufwand für die Kunden entstehen. Institutionen sollten daher bei der Auswahl eines Anbieters entsprechenden Wert auf die Gewährung einer angemessenen Transport-Sicherheit legen. Zu beachten ist hierbei, dass damit lediglich ein Schutz vor unerwünschtem Zugriff auf dem Weg zwischen Institution und Dienstanbieter gewährleistet ist.
+
+##### Verschlüsselung am eigentlichen Speicherort
+
+Eine Steigerung des Sicherheitsniveaus ist durch zusätzliche Verschlüsselung der Daten am Speicherort gegeben. Allerdings ist zu beachten, dass hierbei der Anbieter für das Schlüsselmanagement verantwortlich ist und somit potenziell in der Lage ist, die Daten zu entschlüsseln. Der Anbieter sollte nachprüfbar darlegen können, wie der Zugriffsschutz gewährleistet wird und welches Sicherheitsniveau das eingesetzte Schlüsselmanagement bietet.
+
+##### Verschlüsselung auf dem Client der Benutzer
+
+Die Verschlüsselung der extern gespeicherten Daten bereits auf dem Client des Benutzers stellt die sicherste Methode zur Gewährleistung der Vertraulichkeit dar. Hierbei werden dem Anbieter eines Online-Speichers ausschließlich verschlüsselte Daten übergeben. Damit ist der Umfang und die Qualität von zusätzlich angebotenen Sicherheitsmaßnahmen zum Schutz der Vertraulichkeit beim Anbieter weniger relevant. Um die Daten vor einer externen Speicherung lokal zu verschlüsseln, muss eine entsprechende Krypto-Applikation auf dem Client installiert sein. Einige Online-Speicher-Anbieter haben eine solche Verschlüsselungsfunktionalität bereits in ihre Client-Software integriert. Bei der lokalen Datenverschlüsselung ist zu beachten, dass ein geeignetes Schlüsselmanagement erforderlich ist, um beispielsweise einen Datenaustausch mit Dritten zu ermöglichen. Zudem müssen nicht nur die genutzten kryptografischen Schlüssel sicher archiviert werden, sondern auch das genutzte Programm.
+
+##### Spezifische Anwendungsszenarien
+
+Die bisher betrachteten Gefährdungspotenziale bestehen unabhängig vom tatsächlich genutzten Funktionsumfang der gewählten Online-Speicher-Lösung. Gleiches gilt für die vorgeschlagenen Maßnahmen. Darüber hinaus birgt die Nutzung von Online-Speicher-Diensten eine Vielzahl weiterer Risiken, deren Ausprägung vom Einsatzszenario in der jeweiligen Institution abhängt. Im Folgenden werden daher verschiedene Anwendungsfälle betrachtet, wie sie im institutionellen Umfeld häufig anzutreffen sind. Anhand der aufgeführten Szenarien lassen sich sowohl potenzielle Gefährdungen als auch angemessene Schutzmaßnahmen anschaulich herausarbeiten.
+
+##### Fazit
+
+Daten einer Institution unterliegen einem anderen Schutzbedarf als Daten privater Anwender. Der Verfügbarkeit der Daten und deren Schutz vor Verlust der Integrität oder der Vertraulichkeit kommt somit eine viel größere Bedeutung zu. Die Entscheidung zum Einsatz von Online-Speicher-Lösungen in Unternehmen oder Behörden findet daher in der Regel auf strategischer Ebene statt.
+
+Institutionen sollten ihre Entscheidungen im Zusammenhang mit Online-Speicher-Lösungen auch gegenüber ihren Mitarbeitern in geeigneter Form kommunizieren und ihnen somit die Möglichkeit geben, Kenntnis über die Rahmenbedingungen der Nutzung von Online-Speichern oder auch ein generelles Verbot solcher Dienste zu erlangen.
+
+In diesem Papier wurden eine Reihe von denkbaren Anwendungsfällen für den Einsatz von Online-SpeicherLösungen im Unternehmens- und Behördenumfeld aufgezeigt. Die Einbindung unterschiedlicher Endgeräte und der damit verbundene schnelle und ortsunabhängige Zugriff auf die Daten einer Institution sowie sinkende Preise und eine breitere Palette von Angeboten lassen diese dabei zunehmend attraktiver werden.
+
+Doch bei alle gegebenen Vorteilen sollten Unternehmen und Behörden auch die wichtigen Aspekte der Sicherheit ihrer Daten nicht aus den Augen verlieren. Gerade die Einfachheit und Unauffälligkeit, mit der sich Online-Speicher-Dienste in die IT-Systeme der Mitarbeiter integrieren, bergen die Gefahr, dass diese die notwendige Sorgfalt beim Umgang mit schützenswerten Daten außer Acht lassen. Zudem sollten sich die Verantwortlichen einer Institution immer vor Augen halten, dass sie ihre Daten einem Dritten übergeben, zu dem ein gewisses Vertrauensverhältnis existieren sollte.
 
 ---
 
@@ -1334,7 +1483,6 @@ Ich kann Informationssicherheits-Massnahmen aufzeigen und deren Einsatz anforder
 
 https://moodle.ffhs.ch/mod/assign/view.php?id=3731180
 
-1
 
 ### IT-Sicherheit
 Das Gefahrenpotenzial für geschäftsrelevante Daten und Informationen, die durch ICT-Systeme geseichert oder verarbeitet werden, auf ein tragbares Risikoniveau zu senken.
@@ -1566,7 +1714,6 @@ Policy Struktur
   - Schaffen von Unternehmenswert
     - IT muss die Ziele der Unternehmung aktiv unterstützen und ermöglichen Abstimmung zwischen Business und IT ist entscheidend
   - Minimieren von IT Risiken Schutz der Assets und Fortführung der Unternehmensprozesse im Krisenfall
-  
 ##### Übersicht gebräuchlicher Frameworks
 - Es bestehen eine respektable Anzahl von Frameworks, die zum Aufbau eines internen Kontrollsystems, bzw. zur Definition/Bestimmung von anwendbaren Kontrollen verwendet werden können:
 
@@ -1581,7 +1728,7 @@ Policy Struktur
 ##### Center for Internet Security
 - Das Center for Internet Security (CIS) ist ein Zusammenschluss von Organisationen und Einzelpersonen, um Materialien und Ressourcen zum Thema Internet-Sicherheit zur Verfügung zu stellen. Die Verwaltung der 2000 gegründeten Organisation befindet sich in East Greenbush, New York.
 - CIS in Version 7.1 listet zu 20 Kontrollen ca. 170 Subkontrollen.
-  
+
 Hauptpunkt für die Verwendung von CIS:
 - Weiters stehen zu allen gebräuchlichen Plattformen umfangreiche Benchmarks (Wegleitungen zur sicheren Konfiguration) zur Verfügung
 - Mindestanforderungen für Compliance Tools vorhanden
@@ -1689,7 +1836,6 @@ Zu jedem Baustein werden typische Gefahren und Massnahmen aufgezeigt
   - Ausfälle, Überlastungen, Soft- oder Hardwarefehler
 - G5 Vorsätzliche Handlungen
   - Missbrauch, Abhören, Malware, Manipulation, Maskerade, …
-  
 
 Gefärdungen müssen nicht zwingend IT bezogen sein - in der InfoSec werden spezifische Gefährungskataloge eingesetzt.
 
@@ -1751,7 +1897,6 @@ Gefärdungen müssen nicht zwingend IT bezogen sein - in der InfoSec werden spez
 - Control Objectives
   - Total 210
   
-
 - Management Guidelines
   - Input und Output des Prozesses 
   - Aufgaben- und Zuständigkeitsmatrix (RACI-Matrix)
@@ -1917,6 +2062,219 @@ Dauer	Thema
 |Bewertung|Kurze Erklärung, weshalb dieser Business Case bewilligt werden sollte. Falls Varianten zur Auswahl stehen enthält dieses Kapitel unsere Empfehlung und die Erklärung, weshalb diese Variante und nicht die anderen.|
 |Entscheidungsvorlage|Das formelle Gesuch an die Geschäftsleitung, das vorgestellte Projekt anzugehen.|
 
+### Musterlösung - ISMS - Business Case
+
+#### Aufgabenstellung:
+Erstellen Sie ein kurzes Executive Summary des Business Case für ein ISMS in Ihrer Firma. Verwenden Sie das ISO27k Template oder beliebige andere Quellen als Inspiration und geben Sie Ihr Ergebnis in Moodle ab. Wir werden einige Beispiele im Präsenzblock 3 besprechen.
+
+#### Management Summary
+Das Information Security Management System (ISMS) bringt Information Security unter Kontrolle des Managements. Bessere Informationssicherheit reduziert das Risiko von Incidents und reduziert daraus entstehende Kosten und Verluste.
+Weitere Vorteile des ISMS sind:
+- Strukturierte, kohärente und professionelle Führung der Intformationssicherheit
+- Umfassendes Risikomanagement und Behandlung der Risiken entsprechend den Prioritäten von Management und Informationssicherheit
+- Fokus der Sicherheitsinvestitionen auf erfolgsversprechendste Gebiete und Aktivitäten
+- Nachvollziehbare, überprüfbare und sogar zertifizierbare Führung von Informationssicherheit
+
+#### Überblick (Thematik und Zielsetzung)
+Derzeit fehlt eine klare Strategie an der die Informationssicherheitsziele des Unternehmens ausgerichtet werden.
+Teil des Aufbaus eines nach BSI Grundschutz oder Cobit ausgerichteten ISMS ist die Erstellung einer Sicherheitsstrategie. Darauf aufbauend wird das ISMS Policies, Standards, Prozesse und benötigte Management Information Systeme entwickeln und einführen. Das so entstehende ISMS erlaubt dem Management die aktuell implementierte IT Sicherheit zu beurteilen und strategische Ziele für den weiteren Betrieb und die Weiterentwicklung zu geben.
+
+#### Definition und Abgrenzung
+Das ISMS wird sich an den vom Bundesamt für Sicherheit in der Informationstechnik veröffentlichten und unterhaltenen BSI Grundschutzkatalog anlehnen. Es werden vom Projektteam zu identifizierende ausgewählte Aspekte der Bausteine ‚Übergreifende Aspekte‘, ‚Infrastruktur‘, ‚IT-Systeme‘ und ‚Netze‘ implementiert. Der Baustein ‚Anwendungen‘ ist nicht Teil dieser Implementation.
+
+#### Kostenpositionen
+
+>[Ein ‚realer‘ Business Case würde zu jedem dieser Posten zu erwartende Kosten angeben. Berechnung der Kosten und dahinterliegende Annahmen würden entweder hier oder in einem Anhang aufgeführt.]
+
+Einmalige Kosten:
+- Projektteam
+- Berater für Strategieentwicklung und ISMS Einführung nach ISIS12 Methode
+- IT Mitarbeiter, welche Teil- oder Vollzeit im Projekt eingebunden sind
+- Miteinbezug Management Team für Entwicklung und Genehmigung des ISMS
+- Erstellen von fehlenden Policies und Standards
+- Aufbau einer CMDB (Inventar Datenbank)
+- Einführung allfällig benötigter Tools und Applikationen
+- Schulung der Mitarbeiter
+
+Wiederkehrende Kosten:
+- Neue Stelle Information Security Officer (2 FTE)
+- Regelmässige Prüfung des ISMS generiert Aufwand von voraussichtlich x PM in Informatikabteilung
+- Aufwand von xPM für im Risk Management Framework miteinbezogene Mitglieder des Managements und IT Mitarbeiter
+- Lizenz- und Unterhaltskosten für neu beschaffte Hard- und Software
+
+#### Monetäre Vorteile
+Durch allgemein höhere Security und professionelles Risikomanagement werden die Anzahl und das Ausmass der sicherheitsrelevanten Vorfälle reduziert. Die folgenden Kostenersparnisse werden erwartet:
+- CHF x durch Vermeidung von x Sicherheitsvorfällen
+- CHF x durch höhere Verfügbarkeit der IT Systeme
+- CHF x durch standardisierte, effizientere und zentral gesteuerte Kernprozesse
+- CHF x geringere Rückstellungen durch quantifizierbare und verringerte  Risiken
+
+#### Nicht-monetäre Aspekte
+Das einheitliche Sicherheitskonzept ermöglicht eine firmenweit standardisierte Erfassung und Analyse von Gefahren und erlaubt es, Informationssicherheit konsequent, sinnvoll und kostengünstig zu gewährleisten.
+Bereits existierende Kontrollen werden gestärkt und firmenweit einheitlich umgesetzt.
+Änderungen an Sicherheitsvorgaben, z.B. durch Gesetzesänderungen, können zentral implementiert und gemessen werden.
+
+Die umfassende, strukturierte Herangehensweise an Sicherheit verbessert die Wahrscheinlichkeit, dass alle relevanten Sicherheitsbedrohungen identifiziert, rational bewertet und angemessen behandelt werden und so das Risiko für die Unternehmung reduzieren.
+Risiken werden firmenweit identisch erfasst, bewertet und behandelt. Damit steigt unsere Fähigkeit, Risiken zu vermindern oder auszulagern und Kosten einzusparen.
+Mitarbeiter entwickeln ein Sicherheitsbewusstsein, werden damit selbst zu Risikomanagern und verringern das Risiko für die Unternehmung.
+
+#### Bewertung
+Rein monetär betrachtet ist die Einführung eines ISMS kein attraktives Unterfangen – viele der Vorteile sind nur bedingt oder gar nicht monetär. Ausserdem handelt es sich um ein strategisches Projekt, welches erst nach einem halben oder gar ganzen Jahr messbare Verbesserungen und Kosteneinsparungen zeigen wird.
+Bedenkt man aber die steigende Wichtigkeit von Informationssicherheit durch wachsende Gefahren und strengere gesetzliche Anforderungen ist die Einführung eines ISMS nicht nur strategisch wertvoll sondern sogar eine Notwendigkeit.
+
+#### Entscheidungsvorlage
+Gesuch an das Management, die für die Umsetzung des ISMS nach BSI Grundschutz benötigten Mittel von CHF x zu genehmigen und das Projektteam in der Umsetzung dieser Aufgabe voll zu unterstützen.
+
+
+### Prozessmanagement
+
+Prozessmanagement, auch Geschäftsprozessmanagement (GPM) oder Geschäftsprozessverwaltung, beschäftigt sich mit der Identifikation, Gestaltung, Dokumentation, Implementierung, Steuerung und Verbesserung von Geschäftsprozessen. Ganzheitliche Ansätze des Geschäftsprozessmanagements adressieren nicht nur technische Fragestellungen, sondern insbesondere auch organisatorische Aspekte, wie die strategische Ausrichtung, die Organisationskultur oder die Einbindung und Führung von Prozessbeteiligten.[1] 
+
+„Wer macht was, wann, wie und womit?“ ist eine zentrale Fragestellung. Zur Verbesserung und Steuerung werden entsprechende Kennzahlen verwendet. Diese Kennzahlen können zum Beispiel in einer Balanced Scorecard dargestellt werden.
+
+#### Ziele und Aktivitäten
+
+Ziel des Geschäftsprozessmanagements ist es, die in jedem Unternehmen existierenden Informationen zu den eigenen Geschäftsprozessen zu nutzen, um sich auf den Kunden einzustellen und als Ergebnis die Unternehmensziele besser zu erreichen. Insbesondere gehören dazu:
+
+• Kennen der eigenen Geschäftsprozesse,
+• Gestalten und Verbessern der Prozesse, Geschäftsprozessoptimierung,
+• Dokumentieren der Abläufe, weil es zum Beispiel das Gesetz vorschreibt,
+• prozessorientierte Kostenkalkulation,
+• Abbilden der Unternehmenseinheit mit fest definierten Rollen und Rechten,
+• so flexibel wie nötig sein, so dass die Ausnahme zur Regel werden kann,
+• Festlegen klarer Schnittstellen zwischen Prozessen, so dass Prozessketten und Verschachtelungen von Prozessen einfach gebildet werden können.
+
+Aus den Zielsetzungen ergeben sich daher folgende Tätigkeitsbereiche für das Geschäftsprozessmanagement:
+
+• Planen und Modellieren von Prozessen,
+
+• Durchführen der Arbeiten beziehungsweise Arbeiten nach Prozessen,
+
+• Überwachen der Prozesse.
+
+Die Erkenntnisse aus dem Überwachen fließen idealerweise in einem Kreislauf wieder in die Planung ein.
+
+Geschäftsprozessmanagement im Zusammenhang mit der IT hat vor allem die Abstimmung von Geschäftsfunktionen und IT im Fokus. Daraus ergeben sich dann die folgenden Ziele:
+
+• erhöhte Effizienz
+• erhöhte Transparenz
+• erhöhte Flexibilität
+• bessere Qualität
+• reduzierte Kosten
+• Erschließung neuer Geschäftsmodelle
+
+#### Planen und Modellieren der Geschäftsprozesse
+
+In der Planungsphase geht es darum, die Geschäftsprozesse als Typen zu identifizieren. Dabei können entweder existierende Prozesse herausgefunden beziehungsweise dokumentiert oder die Prozesse neu geplant werden. Die Geschäftsprozessmodellierung basiert im Allgemeinen auf standardisierten Modellierungssprachen wie zum Beispiel Ereignisgesteuerten Prozessketten, UML-Aktivitätsdiagrammen, Folgeplan oder Business Process Model and Notation.
+
+Eine Möglichkeit ist es, in einem ersten Schritt nur Regeln zum Aufzeichnen des Prozessablaufes festzulegen. Damit werden dann Daten aufgezeichnet. Mittels Process Discovery beziehungsweise Process Mining wird dann versucht, tatsächliche Prozesse herauszufinden.
+
+Die so identifizierten Prozesse können dann analysiert und als Grundlage für weitere Planungen verwendet werden. Es ist auch möglich, ihnen verantwortliche Rollen oder Personen zuzuordnen: Prozesseigner oder Prozessverantwortliche. Für die gesamte Koordination über alle Geschäftsprozesse hinweg existiert manchmal auch die Rolle des Prozesskoordinators.
+
+In der Sachbearbeitung kann häufig nur ein geringerer Teil in strukturierten Prozessen vorgedacht werden. Der überwiegende Teil ist unstrukturiert oder nur in Teilen strukturierbar, das heißt nicht oder nur wenig vorhersehbar. Man spricht auch von Case Managagement (Fallmanagement). Case Manager sind für einen Fall verantwortlich und entscheiden aufgrund ihrer Erfahrung, was die nächsten Schritte sind und wen sie an der Bearbeitung des Falls beteiligen. Typische Arbeitsplätze sind die von Mitarbeitern der Arbeitsagenturen, von Richtern, von Bankern im Bereich von Spezialkrediten, beim Customer Support. Krankenhausprozesse sind ebenfalls nicht vorherbestimmbar. Hinzu kommen das Event Management und alle Arbeitsplätze, an denen sehr kreativ gearbeitet wird. Daraus ergeben sich Herausforderungen in der Messbarkeit dieser Prozesse und damit ihrer Optimierbarkeit.
+
+#### Verifizieren der Geschäftsprozesse 
+
+Vor der Umsetzung neuer oder umgestalteter Geschäftsprozesse in die Praxis bietet sich deren Prüfung hinsichtlich ihrer Zielerreichung (Kosten, Zeit und Qualität, aber auch Warendurchsatz, Ressourcenallokation o. ä.) durch eine Simulation auf Basis der Prozessmodelle oder eine Prozesskostenrechnung an.
+
+#### Prozessumsetzung
+
+Die Planung fließt in die Prozessdurchführung ein. Die klassischen Mittel zum Organisieren der Ablauforganisation können zum Einsatz kommen. Man kann Prozessmodelle auch in eine Process- beziehungsweise Workflow-Engine übertragen und darin ausführen lassen. In der Regel sind dazu eine Reihe weiterer technischer Informationen durch IT-Spezialisten anzureichern, wie etwa der technische Aufruf einer Anwendung lautet, welche Parameter übergeben werden sollen, was im Fehlerfall passieren soll. In der Regel besitzen die Engines Restriktionen, so dass das Modell angepasst werden muss. Zudem ist die organisatorische Sicht häufig weniger differenziert oder überdifferenziert. Im letzten Fall werden aus mehreren Aktivitäten nur eine, da der Rest der Aufgaben in der aufgerufenen Anwendung selbst ausgeführt wird.
+
+#### Überwachen der Prozesse, Dokumentieren, Statistiken
+
+##### Kurz- und langfristige Aktivitäten
+
+Das Überwachen von Geschäftsprozessen beinhaltet einerseits kurzfristige Aktivitäten wie zum Beispiel festzustellen, dass ein Team mit Aufträgen überhäuft ist, andererseits auch längerfristige Aktivitäten wie Kennzahlen zu erzeugen, die wieder in die Planung einfließen können.
+
+##### Process Mining
+
+Zu den methodischen Anwendungen der systematischen Prozessplanung gehört auch das Aufklären der tatsächlichen Abläufe von wiederholt durchlaufenen Prozessen. Das so genannte Process Mining (nach van der Aalst) ist eine systematische Erweiterung des Data-Mining auf final oder besser noch temporal geordnete Daten. Bedeutsam ist neben der Dauer einzelner Prozessabschnitte zwischen Ereignissen vor allen die Ressourcenbindung der beteiligten Personen und der benutzten Infrastrukturen.
+
+Diese Auswertungen dienen beispielsweise
+
+• der Betriebsdatenabrechnung,
+• der Vorkalkulation,
+• der Prozessverbesserung oder
+• der Fehlersuche.
+
+Dazu werden die gesammelten Daten aus der Prozessausführung, beispielsweise Logfiles benutzt. Diese stellen bei Netzwerk-gebundenen Prozessen die Authentisierungsserver zur Verfügung.
+
+##### Dokumentation von Prozessabläufen 
+
+Gespeichert werden die Prozessdaten laufender und abgelaufener Prozesse in einer Prozessdatenbank (Process Warehouse). Das ist ein spezialisiertes Data-Warehouse, in dem die Geschäftsprozessdaten vorkonfiguriert archiviert und wiederholt systematisch ausgebeutet werden können. Der Zugriff sollte einfacher sein als mit einer unspezifischen Datenbank.
+
+##### Kennzahlen
+
+Kennzahlen zum Beispiel aus der Logistik lassen sich generell auch für die Verwaltung von Geschäftsprozessen anwenden. Beispiele sind:
+
+• Durchlaufzeit: Wann kann man mit einem Ergebnis rechnen, gesamter Zeitbedarf einer kompletten Prozessdurchführung,
+• Liegezeit: Zeiten, in denen keine Aktivität im Prozess stattfindet, Kriterium für Verbesserungspotenzial,
+• Einarbeitungszeit oder Rüstzeit: Muss ein Prozessbeteiligter zu oft die Aufgabe wechseln, steigt diese Zeit,
+• Kommunikationskennzahlen (wer schickt zu wem, redet mit wem): Es kann zweckmäßig sein, räumliche Nähe herzustellen,
+• Bearbeitungszeit: Wie lange braucht jemand, um eine Aufgabe zu erledigen.
+
+All diese Kennzahlen werden erst durch Summieren oder Berechnung des Durchschnitts aussagekräftig. Außerdem können somit Kosten zugeordnet werden.
+
+##### Dokumentieren und Nachvollziehen
+
+Speziell in der Arzneimittel- und Halbleiterindustrie wird großer Wert auf Nachvollziehbarkeit gelegt. Gesetzliche Vorschriften verlangen, dass man zum Beispiel feststellen kann, wer wann was in genau diese Packung Medikament gemischt hat. Auch in anderen Branchen wird auf Nachvollziehbarkeit zunehmend Wert gelegt, indem Verantwortliche eine höhere Haftung übernehmen müssen (Organisationsverschulden). Unterstützende Methoden sind z.B. Lean Management, Six Sigma, Total-Quality-Management.
+
+#### Folgen der Prozessorientierung
+
+Die Konsequenzen der Prozessorientierung werden in folgenden drei Bereichen ersichtlich.
+
+##### Organisation des Unternehmens
+
+• Subsidiarität – Verlagerung von Befugnissen in niedrigere Hierarchieebenen. Dadurch werden größere Entscheidungsfreiräume geschaffen und Verantwortung auf die einzelnen Mitarbeiter übertragen.
+• Zusammenfassung funktionell getrennter, aber prozessual zusammengehöriger Aufgaben, wodurch den Mitarbeitern Einblicke in die eigentliche Tätigkeit vor- und nachgelagerter Bereiche ermöglicht wird.
+
+##### Technische Infrastruktur 
+
+• Überprüfung bestehender Informationssysteme auf Prozessunterstützung
+• Einführung neuer Arbeitsablauf- oder Arbeitsfluss-Systeme
+
+##### Führungsaufgaben
+
+• Prozessmanagement verlangt eine neue und verbesserte Form der Unternehmensführung.
+• Durch die Kundenorientierung gibt es den Trend, Prozesse beim Kunden beginnen und enden zu lassen. Diese Prozesskette verbindet einzelne Abteilungen miteinander.
+• Mitarbeiter bekommen die Verantwortung für einzelne Prozesse übertragen (Prozessverantwortung) und können (teil)autonom über die Prozesskennzahlen geführt werden. Der Mitarbeiter erkennt seine Wichtigkeit und den Sinn seiner Arbeit innerhalb der Prozesskette, bekommt einen größeren Handlungsspielraum und sieht direkt die Erfolge seines Einsatzes auf seinen Verantwortungsbereich. Die Erfolgserlebnisse sowie die zusätzliche Verantwortung motivieren die Mitarbeiter.
+• Die prozessorientierte Unternehmensführung benötigt aber auch die Information der Mitarbeiter, die auch über die Richtung der Unternehmensentwicklung informiert werden sollten. Deshalb wird eine Kommunikation der Visionen, der strategischen Leitlinien und operativen Handlungsziele an alle Mitarbeiter durch geeignete Kommunikationsmittel und Weiterbildung zunehmend wichtig.
+
+#### Entwicklung
+
+Der Gedanke des Prozessmanagement ist nicht neu, ein kleiner historischer Abriss – bereits in den 1930er-Jahren weist F. Nordsieck in folgendem Zitat auf die Notwendigkeit einer an Prozessen ausgerichteten Unternehmensgestaltung hin:
+
+„Der Betrieb ist in Wirklichkeit ein fortwährender Prozess, eine ununterbrochene Leistungskette [...] Anzustreben ist in jedem Fall eine klare Prozessgliederung“ (Nordsieck 1932).
+
+Nordsieck begründet damit zwar noch kein prozessorientiertes Konzept, bildet aber immerhin die gedankliche Grundlage, denn er erkennt den abstrakten Betriebsprozess als Grundlage für die Strukturierung der Aufbauorganisation. Lange Zeit beschäftigte man sich ausschließlich mit der Gestaltung der Aufbauorganisation. Dies führte zu einer Entfremdung vom Kunden sowie zu mangelnder Flexibilität und Schlagkraft am Markt und damit verbundenen Wettbewerbsnachteilen. Deshalb kam es zu einer Fokussierung auf die Qualität im Unternehmen und somit gewann auch die Prozessorientierung wieder an Bedeutung. Erste Arbeiten zu diesem Thema wurden jedoch erst in den 1980er-Jahren unter anderem von Michael Gaitanides und August-Wilhelm Scheer veröffentlicht.
+
+In den letzten Jahren konnte in empirischen Studien eine positive Korrelation zwischen Unternehmensergebnis und gezielter BPM-Anwendung nachgewiesen werden. Noch bessere Ergebnisse konnten für Unternehmen, die BPM gezielt mit einer anderen Management-Methode wie Six Sigma kombinierten, aufgezeigt werden. Besonders gelebte Prozessorientierung kann die Umsatzrendite einer Organisation steigern.
+
+#### Standards, Ausbildungen und Zertifizierungen
+
+Die Begriffe Prozessmanagement, Geschäftsprozessmanagement oder Business Process Management (BPM) werden von den Marktteilnehmern genutzt, aber häufig unterschiedlich verstanden. Das liegt daran, dass es lange keine Organisation gab, deren Definition im Sinne einer Standardisierung als allgemeingültig akzeptiert wurden. Auf der einen Seite gibt es Institutionen wie etwa in Deutschland die Gesellschaft für Organisation, deren Fokus auf Methoden und Managementdisziplinen liegt. Auf der anderen Seite gibt es eine Reihe von Organisationen, die sich um die Standardisierungen von Workflow-/Prozesstechnologien kümmern wie die Workflow Management Coalition (WfMC), die Object Management Group (OMG) oder die Organization for the Advancement of Structured Information Standards (OASIS).
+
+Mit der Association of Business Process Management Professionals (ABPMP), und der ihr angegliederten European Association of Business Process Management (EABPM) scheint zum ersten Mal die Definitionshoheit für BPM anerkannt zu werden. Das Chapter Deutschland wird vertreten durch die Gesellschaft für Organisation, Österreich durch die Österreichische Vereinigung für Organisation und Management (ÖVO) und die Schweiz durch die Schweizerische Gesellschaft für Organisation und Management (SGO). In den beteiligten Organisationen arbeiten viele Mitglieder mit Reputation seit 2006 an einem Ausbildungskanon für eine Zertifizierung zum BPM Professional. Im Dezember 2009 wurde die erste international anerkannte Prozessmanagement-Zertifizierungs-Prüfung in der Schweiz durchgeführt. 24 Absolventen wurden dafür als sogenannte Certified Business Process Professional (CBPP) ausgezeichnet. Ende 2012 waren es bereits 110 Zertifizierte. Grundlage der Zertifizierung ist der Inhalt des Leitfadens „Guide to the Business Process Management Common Body of Knowledge”, kurz „BPM CBOK™. Mit Stand Ende Dezember 2012 gibt es 202 CBPP in Deutschland.
+
+In Österreich und der Schweiz wirkt die Gesellschaft für Prozessmanagement (GP) als Kompetenznetzwerk in Sachen Prozessmanagement. Laut eigener Homepage bietet die GP in Kooperation mit dem Wirtschaftsförderungsinstitut (WIFI) der Wirtschaftskammer Österreich (WKO) seit 2007 Prüfungen zur Zertifizierung zum Process Manager (PcM) und Senior Process Manager (SPcM) an. Das WIFI ist als Zertifikatsaussteller für diese Zertifizierung laut Bundesgesetzblatt (Österreich) nach EN ISO/IEC 17024 akkreditiert und wurde 2010 in die Liste der akkreditierten Zertifizierungsstellen nach EN ISO/IEC 17024-Standard für die Zertifizierung von Personen aufgenommen. Seit 2007 wurden laut Gesellschaft für Prozessmanagement mit Stand Jänner 2012 mehr als 700 Personen zum PcM oder SPcM zertifiziert.
+
+#### Verwandte Begriffe
+
+• Optimierung von Geschäftsprozessen, oft im Zusammenhang mit Arbeitsablaufverwaltung
+• Business Process Reengineering, Ansatz zu eher radikaler Veränderung der Geschäftsprozesse
+• Prozessorientierte Ansätze zur kontinuierlichen Verbesserung: Kaizen/KVP, Six Sigma, Total-Quality-Management, Total Cycle Time, ….
+• Angewandtes Prozessmanagement in Bildungsinstitutionen: Bildungsprozessverwaltung
+
+##### Verbindung zur Informations- und Kommunikationstechnologie
+
+Der Begriff ist in Bezug auf die Informations- und Kommunikationstechnologie (IKT) in das folgende Umfeld einzuordnen:
+
+• Business Service Management (BSM): Die Verbindung zwischen Prozessmanagement und ITSM.
+• IT-Service-Management (ITSM): Methoden, die nötig sind, um die bestmögliche Unterstützung von Geschäftsprozessen (GP) durch die IT-Organisation zu erreichen. Der hier bekannte De-facto-Standard ist die IT Infrastructure Library (ITIL).
+• Prozessmanagement (auch Geschäftsprozessverwaltung, GPM): Die Definition der Prozesse des Geschäftes, die durch die IT unterstützt werden.
+• Serviceorientierte Architektur (SOA): Ein Managementkonzept für eine dienstorientierte Architektur der IKT.
+
 ### Prozessdesign
 
 #### Definition 'Prozess'
@@ -2022,7 +2380,6 @@ http://de.wikipedia.org/wiki/Business_Process_Model_and_Notation
   - Schwerwiegende Incidents werden, falls vom Management so entschieden, als Major Incidents behandelt
 - Leider haben sich verschiedene formelle und logische Fehler eingeschlichen
   
-
 - Bilden Sie Gruppen und:
   - Identifizieren Sie die Key Controls 
   - Finden Sie die Fehler im Prozessdiagramm
@@ -2054,12 +2411,16 @@ Containable in L1
 
 ### RACI - Responsible Accountability Consulted Informed
 
+Organisationen nutzen die Kategorisierung nach RACI, um zu beschreiben, welche Rolle für welche Aktivitäten verantwortlich ist, und welche Rollen zu beteiligen sind. So kann man zu einer klaren Beschreibung der Verantwortlichkeiten und Zuständigkeiten gelangen.
+
 Dabei werden die Begriffe wie folgt interpretiert:
 
 - Responsible – zuständig für die eigentliche Durchführung (Durchführungsverantwortung). Die Person, die die Initiative für die Durchführung (auch durch Andere) gibt. Sie kann die Aktivität auch selbst durchführen. Wird auch als Verantwortung im disziplinarischen Sinne interpretiert.
 - Accountable – rechenschaftspflichtig (Kosten- bzw. Gesamtverantwortung), verantwortlich im Sinne von „genehmigen“, „billigen“ oder „unterschreiben“. Die Person, die im rechtlichen oder kaufmännischen Sinne die Verantwortung trägt. Wird auch als Verantwortung aus Kostenstellensicht interpretiert.
 - Consulted – konsultiert. Eine Person, die vielleicht nicht direkt an der Umsetzung beteiligt ist, aber relevante Informationen für die Umsetzung hat und deshalb befragt werden soll oder muss.
 - Informed – zu informieren (Informationsrecht). Eine Person, die Informationen über den Verlauf bzw. das Ergebnis der Tätigkeit erhält oder die Berechtigung besitzt, Auskunft zu erhalten.
+
+In der Regel sollte pro Aktivität nur eine Person (Rolle) accountable sein. Dagegen können mehrere Personen bei einer Aktivität responsible, consulted oder informed sein. Ebenso kann es vorkommen, dass eine Person für eine Aktivität gleichzeitig accountable und responsible ist.
 
 #### RACI: Einige Beobachtungen
 
@@ -2068,7 +2429,7 @@ Dabei werden die Begriffe wie folgt interpretiert:
 - Es kann immer nur eine Accountability pro Zeile geben -> wenn Verantwortung geteilt wird nimmt sie niemand mehr wahr…
 - Das (RACI) Modell erlaubt es nicht, 'Mitarbeit' darzustellen: wenn mehrere Parteien an einer Tätigkeit arbeiten bleiben die Optionen jeder Partei ein 'R' für ihren Bereich zuzuteilen oder angemessene Kommentare in das RACI einzufügen.
 
-Es gibt ein RASCI Modell, welches ‘Support’ enthält, aber es ist weniger bekannt und akzeptiert.
+Es gibt ein RACI Modell, welches ‘Support’ enthält, aber es ist weniger bekannt und akzeptiert.
 
 #### Fallstudie: Erstellen eines RACI
 
@@ -2291,7 +2652,6 @@ High-Level IAM Architektur
 - Stammdaten, Organisationsdaten, Kostenstellen kommen aus der Personalabteilungen
 - Quality-Check ist sinnvoll; Schlechte Daten sind für IdM ein Hindernis
   - Minimal: Wer ist wessen Vorgesetzter und wie sieht die Kostenstellenstruktur aus (Workflows)
-  
 2. Integration von IT-Systemen
 - Die IT-Abteilung ist für die Integration der verschiedenen IT-Systeme verantwortlich
 - Insbesondere sind das Directory (wie MS AD), Mailsysteme und ERP-Systeme
@@ -2301,7 +2661,6 @@ High-Level IAM Architektur
 - Es muß sichergestellt werden, dass kein unerlaubter Zugriff auf Informationen und Services besteht
 - Einbindung der Fachabteilungen in den Entscheidungsprozess
   - Reporting: Wer hatte wann Zugriff und war dieser Zugriff berechtigt?
-  
 4. Workflows
 - Aufbau von Antrags- und Genehmigungsworkflows, um den Verwaltungsaufwand zu senken
 - Rollenbasierte Berechtigungsvergabe ist sehr komplex
@@ -2311,7 +2670,6 @@ High-Level IAM Architektur
 - Das Provisioning, d.h. Das Schreiben der Identitäten in die Zielsysteme findet automatisiert statt
 - Wichtig: Automatische Sperrung, Reaktivierung und endgültige Löschen von Account miteinbeziehen
   - Stichwort: Vermeidung verwaister Benutzerkonten
-  
 6. Compliance
 - Gesetzliche Vorgaben in Regeln für die Vergabe von Benutzer- und Zugriffsrechten übersetzen
 - Regeln können dann im Workflow abgebildet und ausgewertet werden
@@ -2375,9 +2733,10 @@ Dauer	Thema
 
 ### Agenda
 - Diskussion der Aufgabe Fallstudie Prozessdesign
-- Security Monitoring n Risk- und Exception Management
+- Security Monitoring
+- Risk- und Exception Management
 - Maturity Model CMMI zur Reifegradmessung
-- Continuous Improvement mittels Key Performance Indicators (KPI) sowie dem Plan-DoCheck-Act (PDCA) Zyklus
+- Continuous Improvement mittels Key Performance Indicators (KPI) sowie dem Plan-Do-Check-Act (PDCA) Zyklus
 
 ![2021-05-08_10-11-07](img/2021-05-08_10-11-07.png)
 
@@ -2578,6 +2937,24 @@ http://de.wikipedia.org/wiki/Risikomanagement
     - Sind Ausnahmen (Exceptions) abgelaufen ohne dass die Risiken eliminiert wurden?
     - Sind die Risk Acceptances noch gerechtfertigt?
 - Aus der Prüfung lassen sich Risikoindikatoren (KPI) ermitteln
+
+#### Gruppenarbeit: Risikoanalyse
+
+- Verlust oder Diebstahl des Gerätes
+- Datenverlust bei Verlust oder Diebstahl des Gerätes
+- Zugriff auf und Extraktion von Daten durch:
+  - unzureichend gesicherte Schnittstellen (WLAN, Bluetooth, USB)
+  - Bösartige oder übermässig neugierige Apps
+- Malware: Kompromittieren von e-Banking, generieren von Kosten durch Telefone oder SMS, versenden von Spam, in-App purchases, ...
+- 'Daten' auf Smartphones können hoch sensitive Informationen enthalten:
+    - Bewegungsprofil, soziales Netzwerk, Gesundheit (Fitness-Apps), finanzielle Informationen, politische und sonstige Interessen, ...
+
+|Gefährdungen|Risiko|Eintretenswahrsheinlichkeit|Schadenausmass|Rating|
+|---|---|---|---|---|
+|Beschädigung|Nicht-Verfügbarkeit|Hoch|Gering|3|
+|Verlust, Diebstahl|Physischer Verlust, Offenlegen von Daten, falls ungenügend gesichert|Mittel|Mittel|4|
+|übermässig neugierige Apps|ffenlegen von (möglicherweise persönlichen) Daten wie Bewegungsprofil, Verhalten auf und Kontakte in sozialen Netzwerken, Gesundheit (Fitness-Apps), finanzielle Informationen, politische und sonstige Interessen, ...|Hoch|Mittel|6|
+|unzureichend gesicherte Schnittstellen (WLAN, Bluetooth, USB) und Malware|Mittel|Hoch|6|
 
 ### Maturity Model CMMI (Reifegradmessung)
 
@@ -2888,7 +3265,60 @@ Dauer	Thema
 
 ### Diskussion der Fallstudie 'Audit Planung'
 
-#### Fallstudie: Plattform Beurteilung
+#### Auftrag
+Sie arbeiten in der IT Security Abteilung einer auf Outsourcing spezialisierten grösseren Unternehmung. Eines Tages kommt Ihr Vorgesetzter auf Sie zu und teilt Ihnen mit, dass Sie einen IT Security Audit der Leistungserbringung für die Kunden durchführen sollen.
+
+Nach einer ersten Planungsphase haben Sie die unten aufgeführten Informationen zusammengetragen. Morgen wollen Sie Ihrem Vorgesetzten Ihre Auswahl der Kontrollziele (was prüfen Sie?), das grobe Prüfprogramm (Wo prüfen Sie was?) und eine Terminplanung (Wann führen Sie welche Tätigkeiten durch?) vorstellen.
+
+Erstellen Sie gemäss dem unten stehenden Raster auf ca. 1 A4 Seite eine Planung der drei genannten Punkte. Kapitel 15.1 im Lehrbuch bietet Ihnen Hintergrundinformationen und Hilfestellung.
+
+#### Ergebnisse der Vor-Planung
+
+##### Systemabgrenzung
+Es handelt sich um eine reine Einhalteprüfung: Ihr Audit soll ausschliesslich die Frage beantworten, ob wir die für Kunden erbrachten Dienstleistungen so erbringen, wie wir sie in den verschiedenen Verträgen definiert haben. Ob die Dienstleistungen sicherer als vereinbart erbracht werden könnten ist nicht Ziel des Audis.
+
+##### Sicherheitsziele
+Es ist ein reiner Compliance Audit, d.h. wir prüfen lediglich die Einhaltung von Verträgen und Richtlinien. Allfällig nur ungenügend gesicherte Risiken sind nicht Teil der Prüfung.
+
+##### Policies, Richtlinien
+•	OS Setup: Richtlinien, wie die Systemeinstellungen zu setzen sind (pro Plattform)
+•	Change Management: Richtlinie, welche bestimmt, dass Changes nur durch autorisiertes Personal aufgrund von gültigen und bewilligten Change Requests innerhalb von definierten Change Windows durchgeführt werden dürfen
+•	Patch Management: Richtlinie, welche bestimmt, dass eine zentrale Stelle in der Firma alle anzuwendenden Patches identifiziert. Die Stelle kontrolliert auch, dass Patches auf den in Frage kommenden Systemen installiert werden – selbstverständlich in Übereinstimmung mit den getroffenen Vereinbarungen
+•	IDS: Richtlinie über zu überwachende Aspekte im Netzwerk und über Vorgehen zum Ändern (und Dokumentation) von IDS Regeln
+•	SOC: Vertragliche Definition der für den Kunden zu überwachenden Alarme, Vorgehen je Alarmtyp, Reaktionszeiten
+
+##### Kunden und erbrachte Leistungen
+
+|Kunde|Grösse|Leistung|
+|---|---|---|
+|Alpha|Gross|Unix: Betrieb OS, Changes durchführen, Patches einspielen|
+|-|-|Windows: Betrieb OS, Changes durchführen, Patches einspielen|
+|-|-|Netzwerk: IDS betreiben|
+|-|-|SOC: Reaktion auf IDS Alarme, Information & Miteinbezug des Kunden gemäss SLA|
+|-|-|Consulting: Bereitstellung von 3 IT Security Spezialisten für den IT Security Officer|
+|Beta|Mittel|AS400: Betrieb OS, Changes durchführen, Patches einspielen|
+|Gamma|Klein|Windows: Betrieb OS, Changes durchführen, Patches einspielen|
+|Delta|Gross|Unix: Betrieb OS, Changes durchführen, Patches einspielen|
+|-|-|Netzwerk: IDS betreiben|
+|-|-|SOC: Reaktion auf IDS Alarme, Information & Miteinbezug des Kunden gemäss SLA|
+|Epsilon|Klein|Windows: Betrieb OS, Changes durchführen, Patches einspielen|
+|-|-|Consulting: Bereitstellung eines IT Security Spezialisten für den IT Security Officer|
+
+	
+##### Zeit & Ressourcen
+
+Der gesamte Audit ist auf eine Woche beschränkt. Erste Data Requests können bereits vor dem Audit gestellt, Interviews aber nur während des eigentlichen Audits durchgeführt werden. Freitag Nachmittag müssen Sie die Ergebnisse des Audits dem verantwortlichen Management präsentieren, den Report versenden Sie bis Mitte der folgenden Woche.
+
+Das Team besteht aus Ihnen und einem Arbeitskollegen. Zusammen haben Sie gutes Know-How der verwendeten Plattformen (exklusiv AS400) und der Prozesse (exklusiv IDS). Interviews führen Sie grundsätzlich zusammen durch.
+
+##### Ihre Detailplanung
+Für Ihre Planung müssen Sie die Plattformen, Prozesse und deren Kombination nach Risiko beurteilen. Da Sie eine Einhalteprüfung Ihrer Dienstleistungserbringung durchführen ist Ihr Risiko weniger sicherheitstechnischer sondern eher rechtlicher Art. Ihre Fragestellung ist daher: wo läuft Ihre Firma am ehesten Gefahr gegenüber den Kunden vertragsbrüchig zu werden und wo hätte dies die grössten Auswirkungen?
+
+Wie Sie feststellen werden haben Sie und Ihr Team weder das Know-How, noch die Zeit um alle Prozesse für alle Plattformen zu prüfen. Sie werden sich – basierend auf Ihrer Analyse – auf eine risikobasierte Auswahl konzentrieren müssen.
+
+Es ist üblich und akzeptiert, dass ein Audit nicht alle Aspekte in beliebiger Tiefe untersuchen kann – Revisionen sind nicht einmalig sondern regelmässig und es ist daher verständlich, dass nicht alle Aspekte in jedem Audit geprüft werden. Der Auditor muss aber nachvollziehbar begründen, wie und weshalb das Prüfgebiet ausgewählt wurde. Diese Auswahl (inkl. Begründungen) und der Plan für die Woche ‚vor Ort‘ sind Gegenstand der Aufgabe.
+
+##### Risikobeurteilung der Plattformen:
 
 | Plattform | Bewertung (Kommentar, Risiko, Gewichtung, in scope/out of scope)                                                                                                                         | scope                                                                                                                                     |
 |:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2896,7 +3326,7 @@ Dauer	Thema
 | Windows   | Grösste Durchdringung, aber eher bei kleinen Kunden vertreten.                                                                                                                           | Zweitwichtigste Plattform, in scope                                                                                                       |
 | AS400     | Nur bei einem Kunden mittlerer Grösse verwendet. • Kein Know-how dieser Plattform im Team • Ist eine Grossrechner-nahe Plattform und daher tendenziell sicher und gewissenhaft betrieben | In diesem Audit nicht berücksichtigt Vormerken, dass wir AS400 entweder im nächsten Audit oder einem spezifischen AS400 Audit untersuchen |
 
-#### Fallstudie: Prozessbeurteilung
+##### Risikobeurteilung der Prozesse
 
 | Prozesse           | Bewertung (Kommentar, Risiko, Gewichtung, scope)                                                  | scope                                   | Kommentar                                                |
 |:-------------------|:--------------------------------------------------------------------------------------------------|:----------------------------------------|:---------------------------------------------------------|
@@ -2907,7 +3337,7 @@ Dauer	Thema
 | SOC                | Sehr sicherheitsrelevant, definierte SLA mit den Kunden                                           | Muss Teil unseres Audits sein: in scope |                                                          |
 | Consulting         | Nicht relevant für unser Audit. Consulting beinhaltet keine messbare Leistungserbringung.         | Out of scope                            |                                                          |
 
-#### Fallstudie: Prüfprogramm
+##### Prüfprogramm
 
 - Wir konzentrieren uns auf die Plattformen Unix und Windows, sowie die Prozesse OS Setup & Betrieb, Patch Management, SOC und evtl. Change Management.
 
@@ -2919,7 +3349,7 @@ Das bedeutet, dass wir die folgenden Prüfgebiete definiert haben:
 - Change Management Unix
 - Change Management Windows
 
-#### Fallstudie: Zeitplan
+##### Zeitplan
 
 Nach Aufstellung des Zeitplans ist klar, dass wir einen Slot mehr benötigen würden, um jedes Prüfgebiet mit 2 Interviews und einem Analyse-Block zu behandeln. Wir planen also, die beiden Change Management Interviews in einem Analyse-Block zu bearbeiten (da dies das Gebiet mit geringstem Risiko ist). Falls wir irgendwo effizienter als erwartet sein sollten, können wir die so verfügbar gewordene Zeit für Change Management einsetzen.
 
@@ -2929,6 +3359,11 @@ Nach Aufstellung des Zeitplans ist klar, dass wir einen Slot mehr benötigen wü
 | 10:00 – 12:00 | OS Windows      | Change Mgmt Unix    | OS Windows (2)      | Change Mgmt Unix (2)    | Vorbereitung |
 | 13:00 – 15:00 | Patch Mgmt      | Change Mgmt Windows | Analyse Change Mgmt | Change Mgmt Windows (2) | Vorbereitung |
 | 15:00 – 17:00 | Analyse OS Unix | Analyse OS Windows  | Analyse Patch Mgmt  | Analyse SOC             | Präsentation |
+
+- Ein 2-Stunden Block beinhaltet jeweils eine Stunde Interview plus eine Stunde Vor- und Nachbearbeitung
+- Gehen Sie davon aus, dass Sie Zeit benötigen, in Data Requests bereitgestellte Daten zu prüfen – Sie werden Data Requests für jedes Prüfgebiet stellen, werden also voraussichtlich auch einen Analyse Block pro Interview Block benötigen (einige Reservationen sind bereits eingetragen, vermutlich benötigen Sie mehr)
+- Allfällige Findings müssen mit den Auditees besprochen werden. Planen Sie daher für jedes Prüfgebiet zwei Interviews
+- Um für die Schlusspräsentation am Freitag bereit zu sein müssen sie die Ergebnisse konsolidieren und bewerten. Nehmen Sie sich dazu ausreichend Zeit (bereits eingetragen)
 
 ### Revision (Audit)
 
@@ -2951,7 +3386,7 @@ Nach Aufstellung des Zeitplans ist klar, dass wir einen Slot mehr benötigen wü
 
 #### Phasen eines Audits
 
-| Planung                     | -> | Fieldwork (Durchführung)            | -> | Rapportieren                                    | -> | Kontrolle                                                         | -> |
+| Planung                     | > | Fieldwork (Durchführung)            | > | Rapportieren                                    | > | Kontrolle                                                         | > |
 |:----------------------------|:---|:------------------------------------|:---|:------------------------------------------------|:---|:------------------------------------------------------------------|:---|
 | Prüfgebiet                  |    | Prozesse dokumentieren              |    | Sachliche Richtigkeit der Findings verifizieren |    | Zeitgerechte und nachhaltige Umsetzung der Aktionen kontrollieren |    |
 | Anforderungen               |    | Kontrollen identifizieren           |    | Audit Report schreiben und vernehmlassen        |    |                                                                   |    |
@@ -4245,7 +4680,7 @@ Für die kontinuierliche Verbesserung der IT-Sicherheitsprozesse sind für den S
     - Abweichungen vom regulären Systembetrieb erkennen: Jeder betroffene Mitarbeiter sollte in der Lage sein, Anomalien selber zu erkennen und ggf. korrekt zu behandeln.
     - Sicherheitsaspekte bei Realisierungsprojekten berücksichtigen: Jeder Verantwortliche der Linie sollte neue Projekte in Bezug auf die Sicherheit beurteilen und geeignete Massnahmen vorschlagen können.
 
-49. Nennen Sie drei potenzielle Sicherheitsrisiken für Applikaitonen und zeigen sie auf, wie diese durch eine Benutzerschulung beeinflusst werden können. Antworten sie möglichst knapp.	￼
+49. Nennen Sie drei potenzielle Sicherheitsrisiken für Applikaitonen und zeigen sie auf, wie diese durch eine Benutzerschulung beeinflusst werden können. Antworten sie möglichst knapp.
 
 - Folgende Risiken können im Rahmen einer Benutzerschulung beeinflusst werden,
     - Fehlerquellen bei der Bedienung (z. B. durch Falscheingaben) können minimiert werden,
@@ -4534,73 +4969,271 @@ Für die kontinuierliche Verbesserung der IT-Sicherheitsprozesse sind für den S
 
 # Prüfungsvorbereitung
 
-![2021-06-19_15-19-58](img/2021-06-19_15-19-58.png)
+1. Weshalb liegt die Gesamtverantwortung für Informationssicherheit bei der Geschäftsleitung? Nennen Sie zwei Gründe.
 
-![2021-06-19_15-23-59](img/2021-06-19_15-23-59.png)
+LÖSUNG:
+- GL trägt das Risiko, bestimmt Risikoappetit, spricht das Budget, bestimmt (grob) die umzusetzenden Sicherheitsmassnahmen, Vorbildfunktion.
 
-![2021-06-19_15-20-06](img/2021-06-19_15-20-06.png)
+2. In Ihrer Rolle als Information Security Officer erhalten Sie von der Geschäftsleitung den Auftrag, eine Risikoanalyse für 'Bring your own device' (BYOD; die Verwendung privater Endgeräte in der Firmeninfrastruktur) zu erstellen.
 
-![2021-06-19_15-24-07](img/2021-06-19_15-24-07.png)
+- Welche Kapitel wird Ihre Risikoanalyse enthalten? (4 Punkte)
+- Nennen Sie zwei Geräteklassen, welche Sie in Ihrer Analyse berücksichtigen. (2 Punkte)
+- Nennen Sie 2 Beispiele für Gefährdungen welche Sie analysieren und begründen Sie kurz, weshalb diese relevant sind.
 
-![2021-06-19_15-20-16](img/2021-06-19_15-20-16.png)
+LÖSUNG:
+- 	Management Summary, Überblick (Erklären der Problemstellung), Beschreibung der Herangehensweise, Gefährdungen (oder: Risiken), Mögliche Sicherheitsmassnahmen, Fazit/Empfehlung.
+- 	Laptops, Smartphones
+- 	Mangelnde Sicherheitseinstellungen (Konfigurationsmöglichkeiten nicht gegeben), Unterschiedliche Umsetzung der Sicherheitsvorgaben (...), Speicherung sensitiver Daten auf nicht kontrollierter Hardware (...), Schwachstellen in Betriebssystemen (...).
 
-![2021-06-19_15-24-13](img/2021-06-19_15-24-13.png)
+3. Die von SANS bereitgestellten Policy Templates enthalten alle das Kapitel 'Policy Compliance1, welches sich in 'Policy Measurement', 'Exceptions' und 'Non-Compliance' gliedert.
 
-![2021-06-19_15-20-29](img/2021-06-19_15-20-29.png)
+Beschreiben Sie kurz, welchen Inhalt Sie in diesen Unterkapiteln erwarten.
 
-![2021-06-19_15-24-19](img/2021-06-19_15-24-19.png)
+LÖSUNG:
 
-![2021-06-19_15-20-37](img/2021-06-19_15-20-37.png)
+- Measurement: Wie wird Compliance zur Policy bestimmt/gemessen
+- Exceptions: Wie werden Ausnahmen von der Policy behandelt
+- Non-Compliance: Welches sind die Folgen der Nichteinhaltung der Policy
 
-![2021-06-19_15-24-25](img/2021-06-19_15-24-25.png)
+4. Nennen Sie für die folgenden Gefährdungen (Risiken) je eine vorgelagerte (präventive) und
+   nachgelagerte (defektive) Kontrolle.
 
-![2021-06-19_15-20-45](img/2021-06-19_15-20-45.png)
+    1.	Verhindern, bzw. Erkennen von Infektionen der Endbenutzer-Computer durch Viren und Malware.
+    - Detective Kontrolle?
+    - Preventive Kontrolle?
 
-![2021-06-19_15-24-33](img/2021-06-19_15-24-33.png)
+    2.	Verhindern, bzw. Erkennen von unautorisierter Verwendung von Firmenservern.
+    - Detective Kontrolle?
+    - Preventive Kontrolle?
 
-![2021-06-19_15-20-56](img/2021-06-19_15-20-56.png)
+LÖSUNG:
 
-![2021-06-19_15-24-50](img/2021-06-19_15-24-50.png)
+Zu 1.
+- P: Virenschutz, Sperren von malicious Websites, Deaktivieren gefährlicher Funktionalitäten (z.B. Flash oder Download von Executables)
+- D: Virenscan, IDS
 
-![2021-06-19_15-21-16](img/2021-06-19_15-21-16.png)
+Zu 2.
+- P: Zugriffsrechte, Hardening der Systeme, Netzwerkzonierung
+- D: Security Monitoring
 
-![2021-06-19_15-25-01](img/2021-06-19_15-25-01.png)
+5. Der BSI IT Grundschutz Katalog teilt sich grob in die Bereiche Bausteine, Gefährdungs-Kataloge und Massnahmen-Kataloge auf. Sehen Sie Gemeinsamkeiten mit den aus der Risikoanalyse bekannten Begriffen/Vorgehen? Welche?
 
-![2021-06-19_15-21-24](img/2021-06-19_15-21-24.png)
+LÖSUNG:
 
-![2021-06-19_15-25-11](img/2021-06-19_15-25-11.png)
+- Bausteine=Ressourcen/Assets
+- Gefährdungen=Schwachstelle/Gefährdung
+- Massnahmen=Wie begegnen wir Bedrohungen.
 
-![2021-06-19_15-21-37](img/2021-06-19_15-21-37.png)
+6. Zu Baustein 'Server unter Unix' (B3.102) listet der BSI IT Grundschutz unteranderem die Gefährdung 'Vertraulichkeitsverlust schutzbedürftiger Daten im Unix-System' (G2.15). Zu dieser Gefährdung schlägt der Grund schütz (unter anderen) die unten auf geführten Massnahmen vor.
 
-![2021-06-19_15-25-20](img/2021-06-19_15-25-20.png)
+Bestimmen Sie risikobasiert welche 3 Massnahmen Sie zuerst angehen wollen. Das Management erwartet eine kurze Erklärung, weshalb Sie die 3 priorisierten Massnahmen ausgewählt haben.
 
-![2021-06-19_15-21-46](img/2021-06-19_15-21-46.png)
+- M 2.33 Aufteilung der Administrationstätigkeiten unter Unix
+- M 4.13 Sorgfältige Vergabe von IDs
+- M 4.14 Obligatorischer Passwortschutz unter Unix
+- M 4.19 Restriktive Attribut verga be bei Unix-Systemdateien und -Verzeichnissen
+- M 4.21 Verhinderung des unautorisierten Erlangens von Administratorrechten
+- M 4.105 Erste Maßnahmen nach einer Unix-Standardinstallation
 
-![2021-06-19_15-25-28](img/2021-06-19_15-25-28.png)
+LÖSUNG:
 
-![2021-06-19_15-21-53](img/2021-06-19_15-21-53.png)
+•	Berwertung und Auswahl der jeweils angegangenen Risiken nach Probability und Impact (dazu
+Definition von eigenen Metriken)
 
-![2021-06-19_15-25-35](img/2021-06-19_15-25-35.png)
+•	Vernünftige Auswahl von 3 Massnahmen
 
-![2021-06-19_15-22-05](img/2021-06-19_15-22-05.png)
+z.B.
 
-![2021-06-19_15-25-42](img/2021-06-19_15-25-42.png)
+bei 2.33 : prob. H, impact M, Risk 5 : grösstes Risiko muss angegangen erden
+bei 4.13 : prob. L, impact L, Risk 2 : vergleichsweise vernachlässigbar
 
-![2021-06-19_15-22-13](img/2021-06-19_15-22-13.png)
 
-![2021-06-19_15-25-50](img/2021-06-19_15-25-50.png)
+7. Handelt es sich in den folgenden Fällen um einen Incident oder ein Problem? (1.5 Punkte pro korrekte Antwort)
 
-![2021-06-19_15-22-20](img/2021-06-19_15-22-20.png)
+Incident oder Problem?
 
-![2021-06-19_15-26-02](img/2021-06-19_15-26-02.png)
+- Der Webshop ist durch den Ausfall eines Servers nicht verfügbar.
 
-![2021-06-19_15-22-27](img/2021-06-19_15-22-27.png)
+- Speicherplatz auf einem Applikationsserver wird regelmässig knapp. Der Grund dafür ist nicht bekannt.
 
-![2021-06-19_15-27-21](img/2021-06-19_15-27-21.png)
+- Mails werden mit einer Verzögerung von mehreren Stunden versandt und empfangen.
 
-![2021-06-19_15-22-34](img/2021-06-19_15-22-34.png)
+- Das Intrusion Detection System meldet DDoS Angriffe obwohl keine vorliegen.
 
-![2021-06-19_15-27-31](img/2021-06-19_15-27-31.png)
+LÖSUNG:
+
+Incident
+•	Der Webshop ist durch den Ausfall eines Servers nicht verfügbar.
+•	Mails werden mit einer Verzögerung von mehreren Stunden versandt und empfangen
+
+Problem
+•	Speicherplatz auf einem Applikationsserver wird regelmässig knapp. Der Grund dafür ist nicht bekannt.
+•	Das Intrusion Detection System meldet DDoS Angriffe obwohl keine voriiegen.
+
+
+8. Welchem Punkt schenken Sie bei der Erstellung eines RACI besondere Aufmerksamkeit?
+
+LÖSUNG:
+
+Eine (und nur eine) Accountability pro Zeile. Teilpunkte für andere beachtenswerte Punkte wie z.B.
+Agreement von allen Stakeholders einholen oder Muster des RACI analysieren und gegebenenfalls
+Prozess überdenken.
+
+Begründung: wenn mehr als eine Person accountable ist, werden beide erwarten, dass andere Person
+aktiv wird und die Chance ist hoch, dass die Accountability nicht, oder nur teilweise wahrgenommen wird.
+
+
+9. a.) Der CEO hat von Security Information and Event Management (SIEM) Systemen gehört und überlegt nun, ob das eine für die Firma interessante Technologie wäre. Als Information Security Officer tragen Sie Informationen für die Entscheidungsfindung zusammen.
+
+Geben Sie eine kurze, allgemein verständliche, Definition eines SIEM (3 Punkte)
+
+LÖSUNG:
+
+Produkte und Services welche SIM & SEM verbinden. SIM (Security Information Management beinhaltet Datensammlung. SEM (Security Event Management) ist Datenanalyse
+
+9. b.) Ihnen ist bewusst, dass ein SIEM ohne CSIRT (Computer Security Incident Response Team) nicht betrieben werden kann. Aktuell ist noch kein CSIRT implementiert. Aufgrund der Firmengrösse (500 Mitarbeiter) könnte es sinnvoll sein, CSIRT und/oder SIEM auszulagern.
+
+Machen Sie eine kurze Aussage zu Vor- und Nachteilen einer Auslagerung. Zeigen Sie auf, welche Managed Services Konstellationen grundsätzlich möglich wären. (4 Punkte)
+
+LÖSUNG:
+
+Synergienutzen beim Auslagern vs. mangelndes Wissen über die Geschäftsprozesse und Aufwand für die Formulierung und das Auditieren des gewählten Partners, Auslagern des CSIRT, des SIEM oder beider Teile. Nur Einkäufen von Beratung
+
+9. c.) Geben Sie eine Empfehlung ab und begründen Sie diese kurz. (3 Punkte)
+
+LÖSUNG:
+
+Wahl einer Konstellation und stimmige Begründung. 'Make' (nur Beratung) ist hier keine optimale Lösung und wird nicht die volle Punktzahl erreichen.
+
+10. a.	) Nennen Sie zwei Faktoren welche Sie benutzen um zu entscheiden, ob Sie ein Risiko der Geschäftleitung vorlegen oder nicht (3 Punkte)
+
+LÖSUNG:
+
+Risikoausmass, betroffene Prozesse (Risiken in Kern- oder strategischen Prozessen sind eher von Interesse), sind regulatorische Anforderungen betroffen?
+
+10. b.	) Nennen Sie zwei Quellen welche Sie benutzen um die in ihrem Risk Management System zu berücksichtigenden Risiken zu identifizieren. (2 Punkte)
+
+LÖSUNG:
+
+Threat Model, Vulnerabilities (Patches), Experten, Auswertung von Incidents, Externe Quellen wie Nachrichten, Communities oder Fachkollegen
+
+10. c.	) Die Summe von geringen Risiken kann in einem inakzeptablen Gesamtrisiko resultieren. Wie gehen Sie vor, um die kumulierten (aggregierten) Risiken zu erkennen und zu beurteilen (4 Punkte)
+
+LÖSUNG:
+
+Risikoinventar, regelmässige Diskussion der Risiken in Fachgremium. Dabei wird geprüft ob die Bewertung der Risiken noch korrekt ist und ob Beziehungen zwischen Einzelrisiken bestehen, welche in kumulierten Risiken resultieren.
+
+10. d.	) Nennen Sie ein Beispiel von einzeln akzeptablen Risiken, welche in einem inakzeptablen Gesamtrisiko resultieren. (3 Punkte)
+
+LÖSUNG:
+
+Mögliches Szenario: Virenschutz ist nicht perfekt, Einspielen von Patches nicht immer zeitnah und IDS ist nicht operationell
+
+11. Wählen Sie einen Ihnen vertrauten Prozess und beschreiben Sie, was gegeben sein muss, damit der Prozess den CMMI (Capability Maturity Model Integration)
+
+- Grad 2 (Managed oder Repeatable) und
+- Grad 4 (Quantitatively Managed)
+
+erreicht, (je 3 Punkte für Managed und Quantitatively Managed)
+
+LÖSUNG:
+
+Beispiel Benutzerberechtigungen:
+
+Zu Grad 2: Prozessdokumentation besteht, Manual erklärt was wie zu tun ist. (Prozess existiert und kann wiederholt werden. Die Zeiten sind einigermassen vorhersehbar. Kosten und Qualität unterliegen starken Schwankungen)
+
+Zu Grad 4: Key Controls definiert und mit SLA gemessen und rapportiert. Mgmt ergreift Schritte, wenn SLA verfehlt werden (Prozess wird geführt und gesteuert. Für den Prozess und die Ergebnisse werden Ziele vorgegeben, Erreichung wird gemessen und überwacht. Zeiten, Kosten und Qualität sind zuverlässig kontrollierbar)
+
+12. Sinnvolle KPI (Key Performance Indicators) sind SMART (Spezifisch, Messbar, Akzeptiert, Realistisch und Terminiert). Identifizieren Sie in der Liste unten die nicht sinnvollen KPI und begründen Sie kurz, weshalb die KPI in dieser Form nicht sinnvoll sind.
+
+a)	95% der Anrufe an unsere Hotline werden innert 30 Sekunden abgenommen.
+
+b)	100% Verfügbarkeit des Services innerhalb Betriebszeiten.
+
+c)	Es wird sichergestellt, dass kritische Server in Übereinstimmung mit den Policies konfiguriert sind.
+
+d)	60% der Tickets werden von Level 1 Support gelöst und nicht an Level 2 zur Weiterbearbeitung geleitet.
+
+LÖSUNG:
+
+b)	100% ¡st kein realistisches Ziel. Selbst die Verfügbarkeit von Grossrechnern ist im Allgemeinen auf 99.5% beschränkt.
+
+c)	keine Mengen oder Zeiten angegeben, damit nicht messbar.
+
+13. Lesen sie folgende Statements
+
+A.	Eine Audit Organisation ist unabhängig, kann aber im Tagesgeschäft eingebunden sein.
+
+B.	Ein Auditor hat - im Rahmen seiner Aufgaben - Zugriff auf alle benötigten Dokumente und Ressourcen
+
+C.	Ein Auditor trifft seine Schlussfolgerungen auf Basis von Evidenzen (Rohdaten, Aussagen von Auditees) und dokumentiert die durchgeführten Analysen und Ergebnisse.
+
+D.	Nach der Abgabe des Schlussberichtes ist der Auditor nicht mehr involviert.
+
+Welche der Aussagen zu den Statements sind richtig bzw. falsch
+
+Richtig oder Falsch
+
+- Genau eines der obigen Statements ist nicht korrekt, alle anderen drei sind korrekt.
+- Statement B. und C. sind korrekt.
+- Genau eines der obigen Statements ist korrekt, alle anderen sind nicht korrekt.
+
+LÖSUNG:
+
+Statement B. und Statement D. sind korrekt
+
+
+14. Identifizieren Sie den wahrscheinlichsten Kandidaten für den Root Cause in den folgenden kurzen Fallbeschreibungen.
+
+Durch unautorisierten Zugriff auf eine Datenbank konnte ein temporärer Mitarbeiter sensitive Daten extrahieren und an einen Konkurrenten verkaufen.
+
+- a) Nicht alle sicherheitsrelevanten Patches für das DBMS sind installiert.
+- b) Die Daten sind verschlüsselt.
+- c) Die Default Passworte des Standard Datenbankadministrators wurden nach der Installation nicht geändert.
+- d) Das Security Monitoring alarmiert nicht, wenn ein nicht-DBA auf eine Datenbank zugreift.
+
+LÖSUNG:
+
+Die Default Passworte des Standard Datenbankadministrators wurden nach der Installation nicht geändert.
+
+15. Identifizieren Sie den wahrscheinlichsten Kandidaten für den Root Cause in den folgenden kurzen Fallbeschreibungen.
+
+Nach einem Systemausfall müssen die Daten vom Backup zurückgespielt werden. Dabei stellt sich heraus, dass die Bänder nicht mehr lesbar sind. Die Daten sind verloren.
+
+- a) Die Bänder waren zu alt.
+- b) Es wurden noch nie Recovery Tests durchgeführt.
+- c) Die Backups wurden erstellt ohne die erfolgreiche und korrekte Sicherung zu verifizieren.
+- d) Der Eigentümer der Applikation hat keine Vorgaben gemacht, wie lange die Daten aufbewahrt werden müssen.
+
+LÖSUNG:
+
+Es wurden noch nie Recovery Tests durchgeführt.
+
+16. Identifizieren Sie den wahrscheinlichsten Kandidaten für den Root Cause in den folgenden kurzen Fallbeschreibungen.
+
+Verschiedene Systeme der Firma wurden infiziert und sind Teil eines Botnets. Das IDS hätte über die Signaturen verfügt um die Infektionsversuche zu erkennen und zu verhindern, doch aufgrund einer Fehlmanipulation eines CSIRT Mitarbeiters war die entsprechende Regel deaktiviert.
+
+- a) Es sind nicht auf allen Systemen die aktuellsten Patches installiert.
+- b) CSIRT Mitarbeiter verfügen über die Berechtigung, das IDS zu administrieren.
+- c) Mitarbeiter sind nicht ausreichend geschult und besuchen verdächtige Websites oder öffnen gefährliche Attachments in Mails.
+- d) Es besteht keine Kontrolle welche sicherstellt, dass im IDS die korrekten Regeln aktiviert sind.
+
+LÖSUNG:
+
+Es besteht keine Kontrolle welche sicherstellt, dass im IDS die korrekten Regeln aktiviert sind.
+
+17. Identifizieren Sie den wahrscheinlichsten Kandidaten für den Root Cause in den folgenden kurzen Fallbeschreibungen
+
+Nachdem Inkonsistenzen in der Datenbank des Reservierungssystems festgestellt wurden hat sich herausgestellt, dass in der vor 2 Wochen installierten Version ein Fehler enthalten war.
+
+- a) Der Mitarbeiter im Operations Team hat die Installation nicht korrekt durchgeführt.
+- b) Das Change Approval Board hat den Change ausnahmsweise bewilligt, ohne dass die Evidenzen des Testmanagers verfügbar waren.
+- c) Die Designspezifikation des Analysten war mangelhaft.
+- d) Testing der Applikation ist an eine externe Firma in Indien ausgelagert, welche das Testing nicht gewissenhaft durchführte.
+
+LÖSUNG:
+
+Das Change Approval Board hat den Change ausnahmsweise bewilligt, ohne dass die Evidenzen des Testmanagers verfügbar waren.
 
 ---
 **Fett**
