@@ -850,7 +850,8 @@ Dauer	Thema
 20'	Personelle Massnahmen
 15'	Didaktischer Puffer
 
-######Lernziele
+###### Lernziele
+
 - Ich kenne mögliche Vorgehensweisen um ein ISMS einzuführen
 - Ich kenne die Methodik des klassischen Risikomanagements und kann diese interpretieren und wo nötig kritisch hinterfragen 
 - Ich kann begründen, welche organisatorischen, infrastrukturellen und technischen Massnahmen nötig sind, um ein erfolgreiches ISMS einführen und nachhaltig betreiben zu können 
@@ -1585,7 +1586,7 @@ Governance-Prinzip: Beherrschbarkeit, Steuerung und Überwachung einer Organisat
 
 #### Sicherheitskriterien
 
-#####Technische Sicherheitskriterien:
+##### Technische Sicherheitskriterien:
 
 |Abkürzung|Standard bzw. Kriterienkatalog|Kurzbeschreibung des Inhalts|
 |---|---|---|
@@ -3304,7 +3305,7 @@ Es ist ein reiner Compliance Audit, d.h. wir prüfen lediglich die Einhaltung vo
 |Epsilon|Klein|Windows: Betrieb OS, Changes durchführen, Patches einspielen|
 |-|-|Consulting: Bereitstellung eines IT Security Spezialisten für den IT Security Officer|
 
-	
+
 ##### Zeit & Ressourcen
 
 Der gesamte Audit ist auf eine Woche beschränkt. Erste Data Requests können bereits vor dem Audit gestellt, Interviews aber nur während des eigentlichen Audits durchgeführt werden. Freitag Nachmittag müssen Sie die Ergebnisse des Audits dem verantwortlichen Management präsentieren, den Report versenden Sie bis Mitte der folgenden Woche.
